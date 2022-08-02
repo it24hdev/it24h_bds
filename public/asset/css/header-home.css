@@ -29,7 +29,7 @@ body {
     --wp--preset--font-size--x-large: 42px;
     color: #5c727d;
     background-color: #f7f7f7;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1em;
 }
 
@@ -306,7 +306,7 @@ img {
     margin: 0px auto;
     background-color: #f7f7f7;
     padding: 0px 15px 30px 15px;
-    z-index: 100; 
+    z-index: 100;
     position: relative;
 }
 
