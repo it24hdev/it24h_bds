@@ -1,6 +1,7 @@
 <header class="col-12">
     <section class="background_header" style="background-image: url('{{asset('asset/images/background.jpg')}}');">
-        <div class="background_header_shadow"></div>
+        <div class="background_header_shadow">
+        </div>
     </section>
     <div class="header_bar">
         <div class="top_bar_wrapper topbar_show_mobile_no transparent_topbar transparent_border_topbar ">
@@ -76,7 +77,8 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="mobile_header mobile_header_sticky_no">
+        {{--
+        <div class="mobile_header mobile_header_sticky_no">
             <div class="mobile-trigger">
                 <i class="fas fa-bars">
                 </i>
@@ -91,7 +93,8 @@
                 <i class="fas fa-user-circle">
                 </i>
             </div>
-        </div> --}}
+        </div>
+        --}}
         <div class="header_wrapper header_type1 header_center hover_type_3 header_alignment_text_left">
             <div class="header_wrapper_inside full_width_header " data-logo="https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png" data-sticky-logo="https://wpresidence.net/wp-content/uploads/2019/11/logo.png">
                 <div class="logo">
@@ -1097,6 +1100,563 @@
                         </ul>
                     </div>
                 </nav>
+            </div>
+        </div>
+    </div>
+    <section class="select_real_estate">
+        <div class="column-gap-default">
+            <div class="inner-column">
+                <div class="wrap-populated">
+                    <div>
+                        <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                                <a class="elementor-icon">
+                                    <svg height="512" id="OutlineExpand" viewbox="0 0 64 64" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m57 25.59 1.315.893c.167.113.362.173.562.173.062 0 .126-.006.188-.018.26-.05.49-.201.639-.421l2.246-3.311c.311-.457.191-1.079-.266-1.389l-29.122-19.761c-.34-.23-.783-.23-1.123 0l-29.124 19.762c-.457.31-.576.932-.266 1.389l2.246 3.311c.148.22.379.371.639.421.262.05.531-.007.75-.155l1.316-.894v10.005c-.586.256-1.065.729-1.316 1.351-1.681 4.156-3.684 9.618-3.684 12.054 0 3.59 2.09 6.378 5 6.903v4.097h-5v2h60v-2h-5zm-51.611-1.323-1.123-1.657 27.734-18.819 27.734 18.819-1.123 1.656-26.049-17.676c-.17-.115-.366-.173-.562-.173s-.392.058-.562.173zm-1.389 24.733c0-1.625 1.289-5.745 3.537-11.304.115-.283.362-.313.463-.313s.348.03.463.313c2.248 5.559 3.537 9.679 3.537 11.304 0 2.897-1.683 5-4 5s-4-2.103-4-5zm5 6.903c2.91-.525 5-3.313 5-6.903 0-2.436-2.003-7.898-3.684-12.054-.251-.622-.73-1.095-1.316-1.351v-11.362l23-15.607 23 15.607v19.465l-.168-.252c-.371-.557-1.293-.557-1.664 0l-2 3c-.109.163-.168.357-.168.554v2h-2v-2c0-.197-.059-.391-.168-.555l-2-3c-.371-.557-1.293-.557-1.664 0l-2 3c-.109.164-.168.358-.168.555v2h-2v-2c0-.197-.059-.391-.168-.555l-2-3c-.371-.557-1.293-.557-1.664 0l-2 3c-.109.164-.168.358-.168.555v13h-6v-19c0-.553-.447-1-1-1h-11c-.553 0-1 .447-1 1v19h-7zm30 4.097h-2v-12.697l1-1.5 1 1.5zm2-9h2v2h-2zm0 4h2v5h-2zm6 5h-2v-12.697l1-1.5 1 1.5zm2-9h2v2h-2zm0 4h2v5h-2zm-22 5h-9v-18h9zm26 0v-12.697l1-1.5 1 1.5v12.697z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widgetpopulated">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">
+                                houses
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-column">
+                <div class="wrap-populated">
+                    <div>
+                        <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                                <a class="elementor-icon">
+                                    <svg height="512pt" viewbox="0 -32 512.00021 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m79.324219 254.808594h39.910156c5.394531 0 9.769531-4.371094 9.769531-9.757813v-38.105469c0-5.390624-4.375-9.757812-9.769531-9.757812h-39.910156c-5.390625 0-9.765625 4.367188-9.765625 9.757812v38.105469c0 5.386719 4.371094 9.757813 9.765625 9.757813zm9.769531-38.105469h20.375v18.589844h-20.375zm0 0">
+                                        </path>
+                                        <path d="m79.324219 331.761719h39.910156c5.394531 0 9.769531-4.367188 9.769531-9.757813v-38.101562c0-5.390625-4.375-9.757813-9.769531-9.757813h-39.910156c-5.390625 0-9.765625 4.367188-9.765625 9.757813v38.101562c0 5.390625 4.371094 9.757813 9.765625 9.757813zm9.769531-38.105469h20.375v18.589844h-20.375zm0 0">
+                                        </path>
+                                        <path d="m223.644531 164.191406h41.957031c5.390626 0 9.765626-4.371094 9.765626-9.757812v-40.066406c0-5.390626-4.375-9.757813-9.765626-9.757813h-41.957031c-5.394531 0-9.765625 4.367187-9.765625 9.757813v40.066406c-.003906 5.386718 4.371094 9.757812 9.765625 9.757812zm9.765625-40.066406h22.421875v20.550781h-22.421875zm0 0">
+                                        </path>
+                                        <path d="m310.488281 164.191406h41.984375c5.394532 0 9.765625-4.371094 9.765625-9.757812v-40.066406c0-5.390626-4.371093-9.757813-9.765625-9.757813h-41.984375c-5.394531 0-9.765625 4.367187-9.765625 9.757813v40.066406c0 5.386718 4.371094 9.757812 9.765625 9.757812zm9.765625-40.066406h22.449219v20.550781h-22.449219zm0 0">
+                                        </path>
+                                        <path d="m266.648438 189.222656h-41.953126c-5.394531 0-9.769531 4.371094-9.769531 9.757813v40.070312c0 5.386719 4.375 9.757813 9.769531 9.757813h41.953126c5.394531 0 9.769531-4.371094 9.769531-9.757813v-40.070312c0-5.386719-4.371094-9.757813-9.769531-9.757813zm-9.765626 40.070313h-22.421874v-20.554688h22.421874zm0 0">
+                                        </path>
+                                        <path d="m353.496094 189.222656h-41.957032c-5.394531 0-9.765624 4.371094-9.765624 9.757813v40.070312c0 5.386719 4.371093 9.757813 9.765624 9.757813h41.957032c5.394531 0 9.765625-4.371094 9.765625-9.757813v-40.070312c0-5.386719-4.371094-9.757813-9.765625-9.757813zm-9.769532 40.070313h-22.421874v-20.554688h22.421874zm0 0">
+                                        </path>
+                                        <path d="m505.9375 278.273438c-6.691406-22.957032-18.722656-47.109376-32.1875-64.609376-8.546875-11.113281-19.085938-22.476562-32.472656-22.480468-.003906 0-.007813 0-.007813 0-11.34375 0-20.5 7.898437-28.609375 17.550781v-151.835937l2.898438.003906c15.679687 0 28.4375-12.765625 28.4375-28.453125s-12.757813-28.449219-28.4375-28.449219h-256.605469c-15.679687 0-28.4375 12.761719-28.4375 28.449219s12.757813 28.453125 28.4375 28.453125h2.898437v43.667968h-132.585937c-16.136719 0-29.265625 13.121094-29.265625 29.25 0 13.449219 9.128906 24.800782 21.519531 28.207032v269.972656h-4.367187c-5.394532 0-9.765625 4.367188-9.765625 9.757812 0 5.386719 4.371093 9.757813 9.765625 9.757813h435.050781c5.394531 0 9.769531-4.371094 9.769531-9.757813 0-5.210937-4.089844-9.457031-9.238281-9.730468v-47.007813c31.484375-2.679687 45.875-18.296875 52.429687-31.59375 11.175782-22.660156 6.589844-51.199219.773438-71.152343zm-476.671875-158.1875h132.585937v19.472656h-132.585937c-5.367187 0-9.730469-4.367188-9.730469-9.734375 0-5.371094 4.363282-9.738281 9.730469-9.738281zm132.585937 307.914062h-120.800781v-268.925781h120.800781zm112.566407 0h-34.398438v-102.265625h34.398438zm53.933593 0h-34.398437v-102.265625h34.398437zm64.773438 0h-45.238281v-112.023438c0-5.386718-4.375-9.757812-9.769531-9.757812h-107.863282c-5.394531 0-9.769531 4.371094-9.769531 9.757812v112.023438h-39.097656v-371.097656h66.953125c5.394531 0 9.769531-4.371094 9.769531-9.757813 0-5.390625-4.375-9.757812-9.769531-9.757812h-89.386719c-4.824219 0-8.902344-4.09375-8.902344-8.9375 0-4.925781 3.992188-8.933594 8.902344-8.933594h256.605469c4.910156 0 8.902344 4.007813 8.902344 8.933594 0 4.84375-4.078126 8.9375-8.898438 8.9375l-89.417969-.027344s0 0-.003906 0c-5.390625 0-9.765625 4.367187-9.765625 9.753906-.003906 5.390625 4.367188 9.757813 9.761719 9.761719l66.988281.019531v181.292969c-11.730469 22.296875-19.246094 47.023438-20.691406 68.210938-1.785156 26.195312 5.355468 46.679687 20.691406 59.621093zm40.074219 0h-20.539063v-52.8125c4.871094 2.878906 11.40625 4.960938 20.539063 5.8125zm54.445312-87.199219c-5.867187 11.890625-17.601562 18.789063-34.910156 20.605469v-40.886719l14.445313-13.734375c3.910156-3.714844 4.0625-9.890625.34375-13.796875-3.71875-3.902343-9.902344-4.054687-13.808594-.339843l-.980469.929687v-31.191406c0-5.386719-4.371094-9.757813-9.765625-9.757813s-9.765625 4.371094-9.765625 9.757813v17.675781l-.945313-.902344c-3.90625-3.71875-10.089843-3.570312-13.808593.332032-3.722657 3.898437-3.574219 10.074218.328125 13.792968l14.425781 13.738282v12.753906l-7.882813-5.609375c-4.394531-3.125-10.492187-2.101563-13.621093 2.285156-3.128907 4.390625-2.105469 10.484375 2.289062 13.609375l19.214844 13.671875v17.667969c-17.921875-1.878906-30.140625-9.152344-36.347656-21.738282-12.007813-24.347656-1.800781-63.019531 13.324219-91.945312.078124-.152344.15625-.300781.234374-.449219 4.214844-8.003906 8.800782-15.25 13.386719-21.214843 9.769531-12.691407 14.894531-15.355469 17.46875-15.355469h.003907c2.542968 0 7.554687 2.578125 16.992187 14.855469 22.023437 28.628906 44.484375 84.605468 29.378906 115.246093zm0 0">
+                                        </path>
+                                        <path d="m287.449219 37.386719h-.195313c-5.394531 0-9.765625 4.367187-9.765625 9.757812 0 5.386719 4.371094 9.757813 9.765625 9.757813h.195313c5.394531 0 9.765625-4.371094 9.765625-9.757813 0-5.390625-4.371094-9.757812-9.765625-9.757812zm0 0">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widgetpopulated">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">
+                                apartments
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-column">
+                <div class="wrap-populated">
+                    <div>
+                        <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                                <a class="elementor-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" id="Icons" height="512" viewBox="0 0 74 74" width="512"><path d="m54 72h-34a1 1 0 0 1 -1-1v-68a1 1 0 0 1 1.256-.967l34 9a1 1 0 0 1 .744.967v59a1 1 0 0 1 -1 1zm-33-2h32v-57.23l-32-8.47z"></path><path d="m71 72h-17a1 1 0 0 1 -1-1v-48a1 1 0 0 1 1-1h17a1 1 0 0 1 1 1v48a1 1 0 0 1 -1 1zm-16-2h15v-46h-15z"></path><path d="m3 41.47a1 1 0 0 1 -1-1v-2.91a1 1 0 0 1 2 0v2.91a1 1 0 0 1 -1 1z"></path><path d="m20 72h-17a1 1 0 0 1 -1-1v-13.56a1 1 0 0 1 2 0v12.56h15v-56h-15v16.56a1 1 0 1 1 -2 0v-17.56a1 1 0 0 1 1-1h17a1 1 0 0 1 1 1v58a1 1 0 0 1 -1 1z"></path><path d="m3 51.44a1 1 0 0 1 -1-1v-2.97a1 1 0 0 1 2 0v2.97a1 1 0 0 1 -1 1z"></path><path d="m20 26.667h-9.667a1 1 0 0 1 -1-1v-5.334a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.334a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.334h-7.667z"></path><path d="m20 39.333h-9.667a1 1 0 0 1 -1-1v-5.333a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.333a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.333h-7.667z"></path><path d="m20 52h-9.667a1 1 0 0 1 -1-1v-5.333a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.333a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.333h-7.667z"></path><path d="m20 64.667h-9.667a1 1 0 0 1 -1-1v-5.334a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.334a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.334h-7.667z"></path><path d="m47.375 25.562h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m32.562 25.562h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m47.375 37.969h-5.937a1 1 0 0 1 -1-1v-5.938a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.938a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.938h-3.937z"></path><path d="m32.562 37.969h-5.937a1 1 0 0 1 -1-1v-5.938a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.938a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.938h-3.937z"></path><path d="m47.375 50.375h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m32.562 50.375h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m47.375 62.781h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m32.562 62.781h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m66.542 35.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path><path d="m66.542 45.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path><path d="m66.542 55.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path><path d="m66.542 65.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widgetpopulated">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">
+                                offices
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-column">
+                <div class="wrap-populated">
+                    <div>
+                        <div class="elementor-widget-container">
+                            <div class="elementor-icon-wrapper">
+                                <a class="elementor-icon" href="/property_category/villas/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g><path d="M496,464H472V272h8a8,8,0,0,0,8-8V240a8,8,0,0,0-8-8h-8V105.73l12.79,5.6A8,8,0,0,0,496,104V72a8,8,0,0,0-4.79-7.33l-128-56a8.052,8.052,0,0,0-6.42,0l-128,56A8,8,0,0,0,224,72v32a8,8,0,0,0,11.21,7.33l12.79-5.6V152H32a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H56v40H32a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8h8V464H16a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H496a8,8,0,0,0,8-8V472A8,8,0,0,0,496,464ZM240,91.77V77.23l120-52.5,120,52.5V91.77l-12.86-5.63a.076.076,0,0,1-.04-.02L363.21,40.67a8.025,8.025,0,0,0-6.42,0L252.9,86.12a.076.076,0,0,1-.04.02Zm216,6.96V232H264V98.73l96-42ZM40,176v-8H248v8Zm208,16v40H216V192Zm-48,0v40H168V192Zm-48,0v40H120V192Zm-48,0v40H72V192ZM40,248H472v8H40ZM352,352H280a8,8,0,0,0-8,8V464h-8V272H456V464H360V360A8,8,0,0,0,352,352Zm-8,16v96H288V368ZM232,312H72a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8V464H56V272H248V464H232V352a8,8,0,0,0,8-8V320A8,8,0,0,0,232,312ZM80,336v-8H224v8Zm136,16V464H88V352ZM488,488H24v-8H488Z"></path><path d="M376,424h64a8,8,0,0,0,8-8V360a8,8,0,0,0-8-8H376a8,8,0,0,0-8,8v56A8,8,0,0,0,376,424Zm8-56h48v40H384Z"></path><path d="M376,184h64a8,8,0,0,0,8-8V120a8,8,0,0,0-8-8H376a8,8,0,0,0-8,8v56A8,8,0,0,0,376,184Zm8-56h48v40H384Z"></path><path d="M280,184h64a8,8,0,0,0,8-8V120a8,8,0,0,0-8-8H280a8,8,0,0,0-8,8v56A8,8,0,0,0,280,184Zm8-56h48v40H288Z"></path><path d="M328,432a8,8,0,0,0,8-8V408a8,8,0,0,0-16,0v16A8,8,0,0,0,328,432Z"></path></g></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="widgetpopulated">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">
+                                villas
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="classsort">
+        <div class="elementor-widget-container">
+            <div class="search_wrapper">
+                <div class="search_wrapper_color">
+                </div>
+                <div class="wpestate-adv-holder">
+                    <div class="adv_search_tab" role="tabpanel">
+                        <div class="nav nav-tabs" role="tablist">
+                            <div class="adv_search_tab_item active" data="#rentals_elementor_search">
+                                <a aria-controls="rentals_elementor_search" class="elementor_search_tab_head" data-toggle="tab"  role="tab">
+                                    Rentals
+                                </a>
+                            </div>
+                            <div class="adv_search_tab_item" data="#sales_elementor_search">
+                                <a aria-controls="sales_elementor_search" class="elementor_search_tab_head" data-toggle="tab"  role="tab">
+                                    Sales
+                                </a>
+                            </div>
+                            <div class="adv_search_tab_item" data="#invest_elementor_search">
+                                <a aria-controls="invest_elementor_search" class="elementor_search_tab_head" data-toggle="tab"  role="tab">
+                                    Invest
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-content ">
+                            <div class="tab-pane active" id="rentals_elementor_search" role="tabpanel">
+                                <form class="search_wr_elementor" action="https://wpresidence.net/advanced-search/" method="get" role="search">
+                                    <input name="filter_search_action[]" type="hidden" value="rentals">
+                                        <input name="adv6_search_tab" type="hidden" value="rentals">
+                                            <input class="term_id_class" name="term_id" type="hidden" value="2">
+                                                <input class="term_counter" name="term_counter" type="hidden" value="0">
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-name">
+                                                            Categories
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div cacaall="" category="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ" property="" xxmaca="">
+                                                                Property Category
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="filter_search_type[]" type="hidden" value="">
+                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property Category
+                                                                    </li>
+                                                                    <li data-value="all" role="presentation">
+                                                                        Categories
+                                                                    </li>
+                                                                    <li data-value="apartments" role="presentation">
+                                                                        Apartments
+                                                                    </li>
+                                                                    <li data-value="condos" role="presentation">
+                                                                        Condos
+                                                                    </li>
+                                                                    <li data-value="houses" role="presentation">
+                                                                        Houses
+                                                                    </li>
+                                                                    <li data-value="industrial" role="presentation">
+                                                                        Industrial
+                                                                    </li>
+                                                                    <li data-value="land" role="presentation">
+                                                                        Land
+                                                                    </li>
+                                                                    <li data-value="offices" role="presentation">
+                                                                        Offices
+                                                                    </li>
+                                                                    <li data-value="retail" role="presentation">
+                                                                        Retail
+                                                                    </li>
+                                                                    <li data-value="villas" role="presentation">
+                                                                        Villas
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-message">
+                                                            City
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div cacaall="" city="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_city" property="" xxmaca="">
+                                                                Property City
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="advanced_city" type="hidden" value="">
+                                                                <ul aria-labelledby="advanced_city" class="dropdown-menu filter_menu" id="adv-search-city" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property City
+                                                                    </li>
+                                                                    <li data-value="all" data-value2="all" role="presentation">
+                                                                        Cities
+                                                                    </li>
+                                                                    <li data-parentcounty="new-jersey-state" data-value="jersey-city" data-value2="jersey-city" role="presentation">
+                                                                        Jersey City
+                                                                    </li>
+                                                                    <li data-parentcounty="new-york-state" data-value="new-york" data-value2="new-york" role="presentation">
+                                                                        New York
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-6df48a4">
+                                                            Area
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div area="" cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_area" property="" xxmaca="">
+                                                                Property Area
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="advanced_area" type="hidden" value="">
+                                                                <ul aria-labelledby="advanced_area" class="dropdown-menu filter_menu" id="adv-search-area" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property Area
+                                                                    </li>
+                                                                    <li data-value="all" role="presentation">
+                                                                        Areas
+                                                                    </li>
+                                                                    <li data-parentcity="jersey-city" data-value="bayonne" role="presentation">
+                                                                        Bayonne
+                                                                    </li>
+                                                                    <li data-parentcity="jersey-city" data-value="greenville" role="presentation">
+                                                                        Greenville
+                                                                    </li>
+                                                                    <li data-parentcity="new-york" data-value="manhattan" role="presentation">
+                                                                        Manhattan
+                                                                    </li>
+                                                                    <li data-parentcity="new-york" data-value="queens" role="presentation">
+                                                                        Queens
+                                                                    </li>
+                                                                    <li data-parentcity="jersey-city" data-value="the-heights" role="presentation">
+                                                                        The Heights
+                                                                    </li>
+                                                                    <li data-parentcity="new-york" data-value="upper-east-side" role="presentation">
+                                                                        Upper East Side
+                                                                    </li>
+                                                                    <li data-parentcity="new-york" data-value="west-side" role="presentation">
+                                                                        West Side
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-3ded8d9">
+                                                            Rooms
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="rooms" maca="" number="" rooms="" xx="">
+                                                                Rooms Number
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input doithere="" name="rooms" type="hidden" value="">
+                                                                <ul aria-labelledby="rooms" class="dropdown-menu filter_menu" id="search-rooms" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Rooms Number
+                                                                    </li>
+                                                                    <li data-value="1" value="1">
+                                                                        1
+                                                                    </li>
+                                                                    <li data-value="2" value="2">
+                                                                        2
+                                                                    </li>
+                                                                    <li data-value="3" value="3">
+                                                                        3
+                                                                    </li>
+                                                                    <li data-value="4" value="4">
+                                                                        4
+                                                                    </li>
+                                                                    <li data-value="5" value="5">
+                                                                        5
+                                                                    </li>
+                                                                    <li data-value="6" value="6">
+                                                                        6
+                                                                    </li>
+                                                                    <li data-value="7" value="7">
+                                                                        7
+                                                                    </li>
+                                                                    <li data-value="8" value="8">
+                                                                        8
+                                                                    </li>
+                                                                    <li data-value="9" value="9">
+                                                                        9
+                                                                    </li>
+                                                                    <li data-value="10" value="10">
+                                                                        10
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" name="submit" type="submit" value="Search">
+                                                            <div>
+                                                                <svg id="Capa_1" style="enable-background:new 0 0 52.966 52.966;" viewbox="0 0 52.966 52.966" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                                                                    <path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21  c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279  C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19  S32.459,40,21.983,40z">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                            Search
+                                                        </button>
+                                                    </div>
+                                                    <input name="elementor_form_id" type="hidden" value="26087"/>
+                                                </input>
+                                            </input>
+                                        </input>
+                                    </input>
+                                </form>
+                            </div>
+                            <div class="tab-pane " id="sales_elementor_search" role="tabpanel">
+                                <form class="search_wr_elementor" action="https://wpresidence.net/advanced-search/" method="get" role="search">
+                                    <input name="filter_search_action[]" type="hidden" value="sales">
+                                        <input name="adv6_search_tab" type="hidden" value="sales">
+                                            <input class="term_id_class" name="term_id" type="hidden" value="3">
+                                                <input class="term_counter" name="term_counter" type="hidden" value="1">
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-1321f3f">
+                                                            Category
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ" property="" xxmaca="">
+                                                                Property Category
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="filter_search_type[]" type="hidden" value="">
+                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property Category
+                                                                    </li>
+                                                                    <li data-value="all" role="presentation">
+                                                                        Categories
+                                                                    </li>
+                                                                    <li data-value="apartments" role="presentation">
+                                                                        Apartments
+                                                                    </li>
+                                                                    <li data-value="condos" role="presentation">
+                                                                        Condos
+                                                                    </li>
+                                                                    <li data-value="houses" role="presentation">
+                                                                        Houses
+                                                                    </li>
+                                                                    <li data-value="industrial" role="presentation">
+                                                                        Industrial
+                                                                    </li>
+                                                                    <li data-value="land" role="presentation">
+                                                                        Land
+                                                                    </li>
+                                                                    <li data-value="offices" role="presentation">
+                                                                        Offices
+                                                                    </li>
+                                                                    <li data-value="retail" role="presentation">
+                                                                        Retail
+                                                                    </li>
+                                                                    <li data-value="villas" role="presentation">
+                                                                        Villas
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-11e1907">
+                                                            City
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div cacaall="" city="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_city" property="" xxmaca="">
+                                                                Property City
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="advanced_city" type="hidden" value="">
+                                                                <ul aria-labelledby="advanced_city" class="dropdown-menu filter_menu" id="adv-search-city" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property City
+                                                                    </li>
+                                                                    <li data-value="all" data-value2="all" role="presentation">
+                                                                        Cities
+                                                                    </li>
+                                                                    <li data-parentcounty="new-jersey-state" data-value="jersey-city" data-value2="jersey-city" role="presentation">
+                                                                        Jersey City
+                                                                    </li>
+                                                                    <li data-parentcounty="new-york-state" data-value="new-york" data-value2="new-york" role="presentation">
+                                                                        New York
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message" style="width:40%;">
+
+                                                        <p>
+                                                        <label class="elementor-field-label">Price range:</label>
+                                                        <span class="wpresidence_slider_price">$ <span id="min">10</span> to $ <span id="max">100</span> </span>
+                                                        </p>
+                                                        <div class="range-slide">
+                                                          <div class="slide">
+                                                            <div class="line" id="line" style="left: 0%; right: 0%;"></div>
+                                                            <span class="thumb" id="thumbMin" style="left: 0%;"></span>
+                                                            <span class="thumb" id="thumbMax" style="left: 100%;"></span>
+                                                          </div>
+                                                          <input id="rangeMin" type="range" max="100" min="10" step="5" value="0">
+                                                          <input id="rangeMax" type="range" max="100" min="10" step="5" value="100">
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" name="submit" type="submit" value="Search">
+                                                            <div>
+                                                                <svg id="Capa_1" style="enable-background:new 0 0 52.966 52.966;" viewbox="0 0 52.966 52.966" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                                                                    <path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21  c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279  C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19  S32.459,40,21.983,40z">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                            Search
+                                                        </button>
+                                                    </div>
+                                                    <input name="elementor_form_id" type="hidden" value="26087"/>
+                                                </input>
+                                            </input>
+                                        </input>
+                                    </input>
+                                </form>
+                            </div>
+                            <div class="tab-pane " id="invest_elementor_search" role="tabpanel">
+                                <form class="search_wr_elementor" action="https://wpresidence.net/advanced-search/" method="get" role="search">
+                                    <input name="filter_search_action[]" type="hidden" value="invest">
+                                        <input name="adv6_search_tab" type="hidden" value="invest">
+                                            <input class="term_id_class" name="term_id" type="hidden" value="2697">
+                                                <input class="term_counter" name="term_counter" type="hidden" value="2">
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-6d19573">
+                                                            Property Category
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div cacaall="" category="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ" property="" xxmaca="">
+                                                                Property Category
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="filter_search_type[]" type="hidden" value="">
+                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property Category
+                                                                    </li>
+                                                                    <li data-value="all" role="presentation">
+                                                                        Categories
+                                                                    </li>
+                                                                    <li data-value="apartments" role="presentation">
+                                                                        Apartments
+                                                                    </li>
+                                                                    <li data-value="condos" role="presentation">
+                                                                        Condos
+                                                                    </li>
+                                                                    <li data-value="houses" role="presentation">
+                                                                        Houses
+                                                                    </li>
+                                                                    <li data-value="industrial" role="presentation">
+                                                                        Industrial
+                                                                    </li>
+                                                                    <li data-value="land" role="presentation">
+                                                                        Land
+                                                                    </li>
+                                                                    <li data-value="offices" role="presentation">
+                                                                        Offices
+                                                                    </li>
+                                                                    <li data-value="retail" role="presentation">
+                                                                        Retail
+                                                                    </li>
+                                                                    <li data-value="villas" role="presentation">
+                                                                        Villas
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-b16f659">
+                                                            Min Size
+                                                        </label>
+                                                        <input class="advanced_select form-control" id="min-size" name="min-size" placeholder="Property Size" type="text" value=""/>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-1ab64d9">
+                                                            Min Lot size
+                                                        </label>
+                                                        <input class="advanced_select form-control" id="min-lot-size" name="min-lot-size" placeholder="Property Lot Size" type="text" value=""/>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <label class="elementor-field-label" for="form-field-4081c53">
+                                                            Status
+                                                        </label>
+                                                        <div class="dropdown form-control ">
+                                                            <div cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_status" property="" status="" xxmaca="">
+                                                                Property Status
+                                                                <span class="caret caret_filter ">
+                                                                </span>
+                                                            </div>
+                                                            <input name="property_status" type="hidden" value="">
+                                                                <ul aria-labelledby="adv_status" class="dropdown-menu filter_menu" id="statuslist" role="menu">
+                                                                    <li data-value="all" role="presentation">
+                                                                        Property Status
+                                                                    </li>
+                                                                    <li data-value="active" role="presentation">
+                                                                        Active (6)
+                                                                    </li>
+                                                                    <li data-value="hot-offer" role="presentation">
+                                                                        Hot Offer (7)
+                                                                    </li>
+                                                                    <li data-value="new-offer" role="presentation">
+                                                                        New Offer (10)
+                                                                    </li>
+                                                                    <li data-value="open-house" role="presentation">
+                                                                        Open House (6)
+                                                                    </li>
+                                                                    <li data-value="sold" role="presentation">
+                                                                        Sold (1)
+                                                                    </li>
+                                                                </ul>
+                                                            </input>
+                                                        </div>
+                                                    </div>
+                                                    <div class="field-group-message">
+                                                        <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" name="submit" type="submit" value="Search">
+                                                            <div>
+                                                                <svg id="Capa_1" style="enable-background:new 0 0 52.966 52.966;" viewbox="0 0 52.966 52.966" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                                                                    <path d="M51.704,51.273L36.845,35.82c3.79-3.801,6.138-9.041,6.138-14.82c0-11.58-9.42-21-21-21s-21,9.42-21,21s9.42,21,21,21  c5.083,0,9.748-1.817,13.384-4.832l14.895,15.491c0.196,0.205,0.458,0.307,0.721,0.307c0.25,0,0.499-0.093,0.693-0.279  C52.074,52.304,52.086,51.671,51.704,51.273z M21.983,40c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19  S32.459,40,21.983,40z">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                            Search
+                                                        </button>
+                                                    </div>
+                                                    <input name="elementor_form_id" type="hidden" value="26087"/>
+                                                </input>
+                                            </input>
+                                        </input>
+                                    </input>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
