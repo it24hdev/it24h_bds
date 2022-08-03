@@ -76,7 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="mobile_header mobile_header_sticky_no">
+        {{-- <div class="mobile_header mobile_header_sticky_no">
             <div class="mobile-trigger">
                 <i class="fas fa-bars">
                 </i>
@@ -91,7 +91,7 @@
                 <i class="fas fa-user-circle">
                 </i>
             </div>
-        </div>
+        </div> --}}
         <div class="header_wrapper header_type1 header_center hover_type_3 header_alignment_text_left">
             <div class="header_wrapper_inside full_width_header " data-logo="https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png" data-sticky-logo="https://wpresidence.net/wp-content/uploads/2019/11/logo.png">
                 <div class="logo">
