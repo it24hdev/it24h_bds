@@ -14,10 +14,34 @@
 
 @section('content')
     <div id="wp-content">
+        <div class="bread-crumb">
+            <ul class="container-breadcrumb">
+                <li><a href="">Bất động sản bán</a></li>
+                <li><i class="fal fa-angle-right"></i> Bất động sản bán toàn quốc</li>
+            </ul>
+        </div>
         <div class="content">
             <div class="wp-list-top">
                 <div class="wp-head">
                     <h2 class="title">Bất động sản đang bán</h2>
+                </div>
+                <div class="count-filter">
+                    <div class="count">
+                        <p>Hiện có 195,624 bất động sản.</p>
+                    </div>
+                    <div class="filter">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Thông thường
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">Tin thông thường</a></li>
+                              <li><a class="dropdown-item" href="#">Tin mới nhất</a></li>
+                              <li><a class="dropdown-item" href="#">Giá tăng dần</a></li>
+                              <li><a class="dropdown-item" href="#">Giá giảm dần</a></li>
+                            </ul>
+                          </div>
+                    </div>
                 </div>
                 <ul class="post-list">
                     <li>
@@ -273,12 +297,75 @@
                         </div>
                     </li>
                 </ul>
-                <div class="show-category">
-                    <a href="" class="btn-redirect">Xem các bài đăng khác</a>
+                <div class="pagination">
+                    <nav class="pagination">
+                        <ul class="page-numbers">
+                            <li>
+                                <span class="page-numbers current">1</span>
+                            </li>
+                            <li>
+                                <a href="#" class="page-numbers" >2</a>
+                            </li>
+                            <li>
+                                <a href="#" class="page-numbers" >3</a>
+                            </li>
+                            <li>
+                                <a href="#" class="page-numbers" >...</a>
+                            </li>
+                            <li>
+                                <a href="#" class="next page-numbers">
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
             <div class="sidebar-right">
-                sidebar
+                <div class="filter-price filter-sidebar">
+                    <h4>Lọc theo khoảng giá</h4>
+                    <ul>
+                        <li><a href="#">Thỏa thuận</a></li>
+                        <li><a href="#"> < 500 triệu </a></li>
+                        <li><a href="#">500 - 800 triệu</a></li>
+                        <li><a href="#"> 800 triệu - 1 tỷ</a></li>
+                        <li><a href="#"> 1 tỷ - 2 tỷ</a></li>
+                        <li><a href="#"> 2 tỷ - 3 tỷ</a></li>
+                        <li><a href="#"> 3 tỷ - 4 tỷ</a></li>
+                        <li><a href="#"> > 4 tỷ</a></li>
+                    </ul>
+                </div>
+                <div class="filter-size filter-sidebar">
+                    <h4>Lọc theo diện tích</h4>
+                    <ul>
+                        <li><a href="#"> ≤ 30 m²</a></li>
+                        <li><a href="#"> 30 - 50 m² </a></li>
+                        <li><a href="#"> 50 - 80 m²</a></li>
+                        <li><a href="#"> 80 - 100 m²</a></li>
+                        <li><a href="#"> 100 - 150 m²</a></li>
+                        <li><a href="#"> 150 - 200 m²</a></li>
+                        <li><a href="#"> 200 - 300 m²</a></li>
+                        <li><a href="#"> 300 - 400 m²</a></li>
+                        <li><a href="#"> 400 - 500 m²</a></li>
+                        <li><a href="#"> > 500 m²</a></li>
+                    </ul>
+                </div>
+                <div class="filter-price filter-sidebar">
+                    <h4>Lọc theo khu vực</h4>
+                    <ul>
+                        <li><a href="#">Hồ Chí Minh</a></li>
+                        <li><a href="#"> Hà Nội </a></li>
+                        <li><a href="#"> Hải Phòng</a></li>
+                        <li><a href="#"> Đà Nẵng</a></li>
+                        <li><a href="#"> Quảng Ninh</a></li>
+                        <li><a href="#"> Phú Quốc</a></li>
+                        <li><a href="#"> Bình Dương</a></li>
+                        <li><a href="#"> Thái Nguyên</a></li>
+                        <li><a href="#"> Bắc Ninh</a></li>
+                        <li><a href="#"> Thanh Hóa</a></li>
+                        <li><a href="#"> Vũng Tàu</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
