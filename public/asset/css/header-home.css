@@ -524,7 +524,7 @@ img {
 
 #login-modal_close {
     top: 15px;
-    right: 15px;    
+    right: 15px;
 }
 
 .login-register-modal-image_text {
@@ -1105,7 +1105,7 @@ svg:not(:root) {
 #access ul ul li:hover{
     padding: 0 40px;
 }
-.
+
 .full_width_header .header_type1.header_center #access ul li.with-megamenu>ul.sub-menu {
     margin-left: auto!important;
     margin-right: auto!important;
@@ -1356,9 +1356,9 @@ svg:not(:root) {
     padding-left: 0;
     list-style: none;
 }
-.nav{
+/* .nav{
     display: block;
-}
+} */
 
 .nav:before{
     display: table;
@@ -1920,7 +1920,7 @@ nav .angledown {
 @media (min-width: 1200px){
     .container {
     width: 1170px;
-    }  
+    }
 }
 @media only screen and (max-width: 1023px){
     .mobile_header {
