@@ -8,3 +8,4 @@ use App\Http\Controllers\HomeController;
 // });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/danh-sach-bai-dang', [HomeController::class, 'property_list']);
