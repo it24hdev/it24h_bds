@@ -761,6 +761,18 @@ img {
     margin-bottom: 0px;
 }
 
+
+#wp-login-but-topbar{
+    border-radius: 3px;
+    top: 20px;
+    max-height: 35px;
+    position: relative;
+    padding: 0.5em;
+    background-image: linear-gradient(to right, transparent 50%, #0073e1 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    font-size: 15px;
+}
 #register-div-topbar, #forgot-pass-div, #login-div_topbar {
     padding: 0px 45px 0px 45px;
     text-align: left;
@@ -1159,10 +1171,7 @@ svg:not(:root) {
     opacity: 1;
     -webkit-transition: all 0.3s ease;
 }
-/*#access ul li.with-megamenu:hover>ul.sub-menu li.megamenu-title {
-        -webkit-transition: all 0.3s ease;
-}
-*/
+
 #access ul ul.wpestate_megamenu_class li {
     padding: 0px 0px;
 }
@@ -1683,6 +1692,17 @@ svg:not(:root) {
     font-size: 14px;
     font-weight: 400;
 }
+#wp-login-but-topbar:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    transition: all 300ms ease;
+    webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    border-color: #0073E1;
+    color: #0073E1 !important;
+    padding: 10px 13px;
+}
+    
 
 .mobile_header {
     background-color: #001a33;
@@ -1741,7 +1761,15 @@ svg:not(:root) {
 }
 
 .mobile-trigger-user {
+    
     right: 0px;
+}
+
+#mobilewrapperuser{
+    transform: translate3d(330px,0,0);
+    transition: transform .25s ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .mobilenavs {
@@ -1837,7 +1865,6 @@ svg:not(:root) {
 }
 
 .mobilenavs .mobile-menu-tab {
-    /* display: none; */
     padding: 0 30px 0 10px;
 }
 
@@ -1893,7 +1920,6 @@ nav .angledown {
 }
 
 .mobilewrapper-user {
-    display: none;
     min-height: 100%;
     position: fixed;
     overflow-x: hidden!important;

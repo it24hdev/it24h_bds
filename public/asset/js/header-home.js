@@ -130,6 +130,22 @@ $(document).ready(function () {
 	  }
 	});
 
+    $(".mobile-trigger-user").on("click",function(){
+    	document.getElementById('mobilewrapperuser').style.visibility = "visible";
+    	document.getElementById('mobilewrapperuser').style.opacity = "1";
+    	document.getElementById("mobilewrapperuser").style.transform = "translate3d(0,0,0)";
+    	
+    });
+	
+	$(".mobilemenu-close-user").on("click",function(){
+    	document.getElementById('mobilewrapperuser').style.visibility = "hidden";
+    	document.getElementById('mobilewrapperuser').style.opacity = "0";
+    	document.getElementById("mobilewrapperuser").style.transform = "translate3d(300px,0,0)";
+    	document.getElementById("mobilewrapperuser").style.transition = "transform .25s ease";
+    });
+
+	
+
 	function isOnScreen(elem) {
         if( elem.length == 0 ) {
             return;

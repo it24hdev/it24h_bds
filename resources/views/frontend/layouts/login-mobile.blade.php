@@ -1,4 +1,4 @@
-<div class="mobilewrapper-user slideout-menu slideout-menu-left" id="mobilewrapperuser" style="display: block;">
+<div class="mobilewrapper-user slideout-menu slideout-menu-left" id="mobilewrapperuser">
     <div class="snap-drawers">
         <div class="snap-drawer snap-drawer-right">
             <div class="mobilemenu-close-user">
