@@ -1,5 +1,9 @@
 @extends('frontend.layouts.base')
 
+@section('css')
+    <link rel="stylesheet" href="{{asset('asset/css/content-home.css')}}">
+@endsection
+
 @section('header')
 @include('frontend.layouts.header-home')
 @endsection
@@ -10,6 +14,7 @@
 
 @section('content')
     <div id="wp-content">
+        {{-- ==== DANH SÁCH TIN ĐĂNG TOP ĐẦU ===== --}}
         <div class="wp-list-top">
             <div class="wp-head">
                 <h2 class="title">Bất động sản có thể bạn quan tâm</h2>
@@ -278,6 +283,7 @@
             </div>
         </div>
 
+        {{-- ===== DANH SÁCH LOẠI HÌNH BĐS ====== --}}
         <div class="list-post-field">
             <div class="container-home">
                 <div class="wp-list-post-field">
@@ -335,6 +341,7 @@
             </div>
         </div>
 
+        {{-- ====== BĐS THEO KHU VỰC ====== --}}
         <div class="wp-list-post-area">
             <div class="wp-head">
                 <h2 class="title">Bất động sản theo khu vực</h2>
@@ -384,6 +391,132 @@
             </div>
         </div>
 
+        {{-- ===== DỰ ÁN BĐS HOT ==== --}}
+        <div class="wp-best-project">
+            <div class="container-home">
+                <div class="wp-title">
+                    <h2>Một số dự án bất động sản hot</h2>
+                    <p>Các dự án bất động sản được quan tâm tìm kiếm nhiều trên thị trường hiện nay!</p>
+                </div>
+            </div>
+            <div class="wp-list-project">
+                <div class="box-header">
+                    <div class="container-best-product">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1" aria-selected="true"><i class="fas fa-city me-2"></i> Dự án A</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-2-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2" aria-selected="false"><i class="fas fa-city me-2"></i> Dự án B</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-3-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button" role="tab" aria-controls="pills-3" aria-selected="false"><i class="fas fa-city me-2"></i> Dự án C</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-4-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button" role="tab" aria-controls="pills-4" aria-selected="false"><i class="fas fa-city me-2"></i> Dự án D</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-content container-home" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                        <div class="wp-info-product">
+                            <div class="wp-detail">
+                                <h2>Thông tin quảng cáo dự án A</h2>
+                                <div class="detail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                </div>
+                                <a href="#" class="btn btn-primary py-2 px-3">Chi tiết dự án</a>
+                            </div>
+                            <div class="image-product">
+                                <div class="wp-img">
+                                    <img src="{{asset('asset/images/featured_property_large-525x328.jpg')}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                        <div class="wp-info-product">
+                            <div class="wp-detail">
+                                <h2>Thông tin quảng cáo dự án B</h2>
+                                <div class="detail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                </div>
+                                <a href="#" class="btn btn-primary py-2 px-3">Chi tiết dự án</a>
+                            </div>
+                            <div class="image-product">
+                                <div class="wp-img">
+                                    <img src="{{asset('asset/images/house_nice_2-525x328.jpg')}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                        <div class="wp-info-product">
+                            <div class="wp-detail">
+                                <h2>Thông tin quảng cáo dự án C</h2>
+                                <div class="detail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                </div>
+                                <a href="#" class="btn btn-primary py-2 px-3">Chi tiết dự án</a>
+                            </div>
+                            <div class="image-product">
+                                <div class="wp-img">
+                                    <img src="{{asset('asset/images/house_nice-525x328.jpg')}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                        <div class="wp-info-product">
+                            <div class="wp-detail">
+                                <h2>Thông tin quảng cáo dự án D</h2>
+                                <div class="detail">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare suscipit consectetur.Fusce non mauris ex. Donec semper, odio vitae lobortis faucibus, magna sem dapibus quam.</p>
+                                    <p><br></p>
+                                    <p>Pellentesque eu fermentum quam, a congue purus. Vivamus a aliquet justo. Aliquam rhoncus suscipit nulla sit amet molestie. Phasellus vitae dictum ex. Aenean molestie orci sed sapien mollis commodo.<br></p>
+                                    <p><br></p>
+                                </div>
+                                <a href="#" class="btn btn-primary py-2 px-3">Chi tiết dự án</a>
+                            </div>
+                            <div class="image-product">
+                                <div class="wp-img">
+                                    <img src="{{asset('asset/images/biet-th.jpg')}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        {{-- ===== TIN TỨC ===== --}}
         <div class="wp-list-news">
             <div class="container-home">
                 <div class="head-news">
@@ -483,6 +616,44 @@
             </div>
         </div>
 
+        {{-- ===== DANH SÁCH DOANH NGIỆP TIÊU BIỂU ===== --}}
+        <div class="wp-list-company">
+            <div class="container-home">
+                <div class="wp-title">
+                    <h2>Các doanh nghiệp tiêu biểu</h2>
+                    <p>Danh sách các doanh nghiệp bất động sản tiêu biểu trong nước và quốc tế</p>
+                </div>
+                <div class="list-company">
+                    <ul class="owl-carousel owl-theme" id="list-company">
+                        <li>
+                            <div class="logo-company">
+                                <img src="{{asset('asset/images/Vinhomes_logo.png')}}" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="logo-company">
+                                <img src="{{asset('asset/images/eco-park.png')}}" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="logo-company">
+                                <img src="{{asset('asset/images/dat-xanh.png')}}" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="logo-company">
+                                <img src="{{asset('asset/images/hung-thing_logo.png')}}" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="logo-company">
+                                <img src="{{asset('asset/images/novahome.png')}}" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 @endsection
 
@@ -507,7 +678,7 @@
             })
         });
 
-        $('#list-field').owlCarousel({
+    $('#list-field').owlCarousel({
         loop:true,
         nav:false,
         dots:false,
@@ -526,6 +697,26 @@
             },
 
         }
+    });
+    $('#list-company').owlCarousel({
+        loop:true,
+        nav:false,
+        dots:true,
+        autoplay:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            450:{
+                items:2
+            },
+            900:{
+                items:3
+            },
+            1350:{
+                items:4
+            },
+        },
     });
     </script>
 @endsection
