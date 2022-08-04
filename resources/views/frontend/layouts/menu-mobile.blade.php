@@ -16,7 +16,7 @@
         </li>
         <li class="menu-item "><a href=" # {{-- {{route('list_product')}} --}}">@lang('lang.Shop')</a>
             <button class="angledown" id='menuitem-699'><i class="fal fa-angle-down fa-xs"></i></button>
-            <ul class="sub-menu" id='sub-menuitem-699' >
+            <ul class="sub-menu2" id='sub-menuitem-699' >
                 <li class="menu-item"><a href="#">Category name 1</a></li>
                 <li class="menu-item"><a href="#">Category name 1</a></li>
                 <li class="menu-item"><a href="#">Category name 1</a></li>
@@ -26,7 +26,7 @@
 
         <li class="menu-item "><a href="{{-- {{route('categoryBlogs')}} --}}#">@lang('lang.Blog')</a>
             <button class="angledown" id='menuitem-689'><i class="fal fa-angle-down fa-xs"></i></button>
-            <ul class="sub-menu" id='sub-menuitem-689'>
+            <ul class="sub-menu2" id='sub-menuitem-689'>
                 {{--  @foreach($getcategoryblog as $cat_blog)
                 <li class="menu-item">
                     <a href="{{route('categoryBlog',[$cat_blog->slug])}}">{{$cat_blog->name}}</a>
@@ -42,7 +42,7 @@
         <ul id="menu-shop-by-department" class="menu">
         <li class="menu-item "><a href=" # {{-- {{route('list_product')}} --}}">@lang('lang.Shop')</a>
             <button class="angledown" id='menuitem-64'><i class="fal fa-angle-down fa-xs"></i></button>
-            <ul class="sub-menu" id='sub-menuitem-64' >
+            <ul class="sub-menu2" id='sub-menuitem-64' >
                 <li class="menu-item"><a href="#">Category name 1</a></li>
                 <li class="menu-item"><a href="#">Category name 1</a></li>
                 <li class="menu-item"><a href="#">Category name 1</a></li>
@@ -57,7 +57,7 @@
                 @else {{$Sidebar->name2}}
                 @endif</a>
             <button class="angledown" id='sidebaritem-{{$Sidebar->category_id}}'><i class="fal fa-angle-down fa-xs"></i></button>
-                <ul class="sub-menu" id='sub-sidebaritem-{{$Sidebar->category_id}}' >
+                <ul class="sub-menu2" id='sub-sidebaritem-{{$Sidebar->category_id}}' >
                 @foreach($Sidebars as $subSidebar)
                 @if($subSidebar->parent_id == $Sidebar->id)
                     <li class="menu-item">
@@ -68,7 +68,7 @@
                         @endif</a>
                     <button class="angledown2" id='sidebaritemlv2-{{$subSidebar->category_id}}'><i class="fal fa-angle-down fa-xs"></i></button>
                         @if(count($subSidebar->childs))
-                        <ul class="sub-menu" id='sub-sidebaritemlv2-{{$subSidebar->category_id}}' >
+                        <ul class="sub-menu2" id='sub-sidebaritemlv2-{{$subSidebar->category_id}}' >
                             @include('frontend.subsidebar',['childs' => $subSidebar->childs])
                         </ul>
                         @endif

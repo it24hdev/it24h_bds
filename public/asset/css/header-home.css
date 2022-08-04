@@ -1356,11 +1356,12 @@ svg:not(:root) {
     padding-left: 0;
     list-style: none;
 }
-/* .nav{
-    display: block;
-} */
 
-.nav:before{
+.nav2{
+    display: block;
+}
+
+.nav2:before{
     display: table;
     content: " ";
 }
@@ -1845,7 +1846,7 @@ svg:not(:root) {
     line-height: 27px ;
 }
 
-nav .sub-menu {
+nav .sub-menu2 {
     display: none;
 }
 

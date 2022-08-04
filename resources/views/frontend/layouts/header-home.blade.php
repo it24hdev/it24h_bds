@@ -1276,7 +1276,7 @@
                 </div>
                 <div class="wpestate-adv-holder">
                     <div class="adv_search_tab" role="tabpanel">
-                        <div class="nav nav-tabs" role="tablist">
+                        <div class="nav2 nav-tabs" role="tablist">
                             <div class="adv_search_tab_item active" data="#rentals_elementor_search">
                                 <a aria-controls="rentals_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
                                     Rentals
