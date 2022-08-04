@@ -10,4 +10,8 @@ class HomeController extends Controller
     {
         return view('frontend.index');
     }
+
+    public function property_list(){
+        return \view('frontend.property-list');
+    }
 }

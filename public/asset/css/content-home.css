@@ -39,7 +39,8 @@ body {
 }
 #wp-content .wp-list-top .wp-head h2.title,
 .wp-list-post-area .wp-head h2.title,
-.wp-list-news .head-news h2{
+.wp-list-news .head-news h2,
+.wp-best-project .wp-title h2, .wp-list-company .wp-title h2{
     margin-bottom: 30px;
     width: 100%;
     font-family: 'Roboto', sans-serif;
@@ -52,8 +53,8 @@ body {
     padding-right: 10px;
 }
 .wp-list-top .wp-head .wp-control{
-    display: flex;
     width: 100%;
+    display: flex;
     padding: 10px 15px;
     justify-content: center;
 }
@@ -521,7 +522,95 @@ li .wp-post .wp-detail .wp-author .action .box-action:hover{
     display: -webkit-box;
     overflow: hidden;
 }
+.wp-best-project .wp-title {
+    padding: 30px 30px 0px 30px;
+}
+.wp-best-project .wp-title p, .wp-list-company .wp-title p{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.wp-best-project .container-best-product{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.wp-best-project .box-header{
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+.container-best-product ul{
+    margin: 0px !important;
+}
+.container-best-product ul li{
+    width: 100% !important;
+    border-radius: 0px !important;
+}
+.container-best-product ul li .nav-link{
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    color: #222 !important;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0;
+    border-radius: 0px !important;
+}
+.container-best-product ul li .nav-link i{
+    color: #E08B00;
+}
+.box-header .active{
+    border-bottom: 3px solid #E08B00 !important;
+    color: #E08B00 !important;
+    background: none !important;
+}
+.wp-list-project .wp-info-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wp-list-project .wp-info-product .wp-detail{
+    width: 100%;
+    padding: 0 15px 20px 15px;
+}
+.wp-list-project .wp-info-product .wp-detail h2{
+    color: #222;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.wp-list-project .wp-info-product .wp-detail .detail{
+    font-size: 15px;
+}
+.wp-list-project .wp-info-product .image-product{
+    width: 100%;
+    padding: 0 10px;
+}
+.wp-list-project .wp-info-product .image-product .wp-img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 10px 31px 0 rgb(7 152 255 / 9%);
+}
+.wp-list-project .wp-info-product .image-product .wp-img img{
+    width: 100%;
+    height: auto;
+}
+.wp-list-company .list-company ul{
+    margin: 0;
+}
+.wp-list-company .list-company ul li{
+    width: 100%;
+    padding: 20px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.wp-list-company .list-company ul li img{
+    width: 165px;
+}
 @media (min-width: 568px){
     .wp-list-top ul.post-list li{
         width: 50%;
@@ -548,6 +637,15 @@ li .wp-post .wp-detail .wp-author .action .box-action:hover{
     }
     .wp-list-news .list-news ul li a .detail-post .desc{
         height: 106px;
+    }
+    .container-best-product ul li{
+        width: 25% !important;
+    }
+    .wp-list-project .wp-info-product .wp-detail{
+        width: 60%;
+    }
+    .wp-list-project .wp-info-product .image-product{
+        width: 40%;
     }
 }
 @media (min-width: 1024px){
@@ -578,6 +676,10 @@ li .wp-post .wp-detail .wp-author .action .box-action:hover{
     }
     .wp-list-news .list-news ul li{
         width: 33.33%;
+    }
+    .wp-best-project .wp-title p, .wp-list-company .wp-title p{
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
