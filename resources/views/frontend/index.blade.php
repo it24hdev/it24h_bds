@@ -4,6 +4,10 @@
 @include('frontend.layouts.header-home')
 @endsection
 
+@section('login')
+@include('frontend.layouts.login')
+@endsection
+
 @section('menu-mobile')
 @include('frontend.layouts.menu-mobile')
 @endsection

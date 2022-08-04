@@ -1,5 +1,123 @@
 $(document).ready(function () {
 
+	$('#adv_categ').dropdown();
+	$('#advanced_city').dropdown();
+	$('#advanced_area').dropdown();
+	$('#rooms').dropdown();
+	$('#adv_categ2').dropdown();
+	$('#advanced_city2').dropdown();
+	$('#adv_categ3').dropdown();
+	$('#adv_status').dropdown();
+
+	// nut menu an hien silebar dang mobile
+    $("#iconmenumobile").on("click",function(){
+    document.getElementById("mobilenav").style.visibility = "visible";
+    document.getElementById("mobilenav").style.opacity = "1";
+    document.getElementById("subpage").style.display = "block";
+    document.getElementById("subcate").style.display = "none";
+    document.getElementById("mobilenav").style.transform = "translate3d(0,0,0)";
+    document.getElementById('iconmenumobile').style.visibility= "hidden";
+    document.getElementById('iconmenumobile').style.opacity= "1";
+    document.getElementsByClassName('backgroundmobile')[0].style= "top: 0px;left: 0px; position: fixed;width: 100%;height: 100%;z-index: 9999;background-color: rgba(0,0,0,.7);";
+    });
+
+    // button an hien menu con sidebar moblie
+    $(".angledown").on("click", function() {
+        var id = $(this).attr('id');
+        id = "sub-"+id;
+        $('#'+id).slideToggle();
+    });
+    // button an hien menu con sub_sidebar moblie 
+    $(".angledown2").on("click", function() {
+        var id = $(this).attr('id');
+        id = "sub-"+id;
+        $('#'+id).slideToggle();
+    });
+
+    // tab sidebar
+    $(".mobile-tab-title").on("click",function(){
+     	var title = $(this).attr("data-menu");
+     	if(title == "pages"){
+     	document.getElementById("subpage").style.display = "block";
+     	document.getElementById("subcate").style.display = "none";
+     	$('.mobile-categories-title').removeClass("active");
+     	$('.mobile-pages-title').addClass("active");
+     	}
+     	else{
+     	document.getElementById("subpage").style.display = "none";
+     	document.getElementById("subcate").style.display = "block";
+     	$('.mobile-categories-title').addClass("active");
+     	$('.mobile-pages-title').removeClass("active");
+     	}
+    });
+
+    // tat sidebar dang moblie
+    $(".mobile-nav-close").on("click",function(){
+    document.getElementById("mobilenav").style.visibility = "hidden";
+    document.getElementById("mobilenav").style.opacity = "0";
+    document.getElementById("mobilenav").style.transform = "translate3d(-330px,0,0)";
+    document.getElementById('iconmenumobile').style.visibility="visible";
+    document.getElementById('iconmenumobile').style.opacity="1";
+    document.getElementsByClassName('backgroundmobile')[0].style= "";
+    });
+
+    $(".submit_action").on("click",function(){
+    	document.getElementById('modal_login_wrapper').style.display = "block";
+    });
+
+    $("#login-modal_close").on("click",function(){
+    	document.getElementById('modal_login_wrapper').style.display = "none";
+    });
+    
+    
+	$("#widget_login_topbar").on("click",function(){
+    	document.getElementById('widget_register_topbar').style.display = "block";
+    	document.getElementById('widget_login_topbar').style.display = "none";
+    	document.getElementById('register-div-topbar').style.display = "none";
+    	document.getElementById('register-div-title-topbar').style.display = "none";
+    	document.getElementById('wp-login-but-topbar').style.display = "block";
+    	document.getElementById('login-div-title-topbar').style.display = "block";
+    	document.getElementById('login_message_area_topbar').style.display = "block";
+    	document.getElementsByClassName('login-links')[0].style.display = "block";
+    	document.getElementsByClassName('password_holder')[0].style.display = "block";
+    	document.getElementById('forgot_pass_topbar').style.display = "block";
+    	document.getElementById('login_user_topbar').style.display = "block";
+    	document.getElementById('forgot-pass-div').style.display = "none";
+    	document.getElementById('forgot-div-title-topbar').style.display = "none";
+    });
+
+    $("#widget_register_topbar").on("click",function(){
+    	document.getElementById('widget_login_topbar').style.display = "block";
+    	document.getElementById('widget_register_topbar').style.display = "none";
+    	document.getElementById('register-div-topbar').style.display = "block";
+    	document.getElementById('register-div-title-topbar').style.display = "block";
+    	document.getElementById('wp-login-but-topbar').style.display = "none";
+    	document.getElementById('login-div-title-topbar').style.display = "none";
+    	document.getElementById('login_message_area_topbar').style.display = "none";
+    	document.getElementsByClassName('login-links')[0].style.display = "none";
+    	document.getElementsByClassName('password_holder')[0].style.display = "none";
+    	document.getElementById('forgot_pass_topbar').style.display = "block";
+    	document.getElementById('login_user_topbar').style.display = "none";
+    	document.getElementById('forgot-pass-div').style.display = "none";
+    	document.getElementById('forgot-div-title-topbar').style.display = "none";
+    });
+    
+ 	$("#forgot_pass_topbar").on("click",function(){
+ 		document.getElementById('forgot_pass_topbar').style.display = "none";
+ 		document.getElementById('widget_login_topbar').style.display = "none";
+ 		document.getElementById('widget_register_topbar').style.display = "block";
+
+ 		document.getElementById('register-div-topbar').style.display = "none";
+    	document.getElementById('register-div-title-topbar').style.display = "none";
+    	document.getElementById('wp-login-but-topbar').style.display = "none";
+    	document.getElementById('login-div-title-topbar').style.display = "none";
+    	document.getElementById('login_message_area_topbar').style.display = "none";
+    	document.getElementsByClassName('login-links')[0].style.display = "none";
+    	document.getElementsByClassName('password_holder')[0].style.display = "none";
+    	document.getElementById('login_user_topbar').style.display = "none";
+    	document.getElementById('forgot-pass-div').style.display = "block";
+    	document.getElementById('forgot-div-title-topbar').style.display = "block";
+    });
 
 	function isOnScreen(elem) {
         if( elem.length == 0 ) {

@@ -4,6 +4,7 @@
         </div>
     </section>
     <div class="header_bar">
+        {{-- top menu --}}
         <div class="top_bar_wrapper topbar_show_mobile_no transparent_topbar transparent_border_topbar ">
             <div class="top_bar">
                 <div class="left-top-widet">
@@ -77,9 +78,11 @@
                 </div>
             </div>
         </div>
-        {{--
+        {{-- end top menu --}}
+
+        {{-- mobile --}}
         <div class="mobile_header mobile_header_sticky_no">
-            <div class="mobile-trigger">
+            <div class="mobile-trigger" id="iconmenumobile">
                 <i class="fas fa-bars">
                 </i>
             </div>
@@ -94,7 +97,9 @@
                 </i>
             </div>
         </div>
-        --}}
+        {{-- end mobile --}}
+
+        {{-- menu --}}
         <div class="header_wrapper header_type1 header_center hover_type_3 header_alignment_text_left">
             <div class="header_wrapper_inside full_width_header " data-logo="https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png" data-sticky-logo="https://wpresidence.net/wp-content/uploads/2019/11/logo.png">
                 <div class="logo">
@@ -1102,6 +1107,7 @@
                 </nav>
             </div>
         </div>
+        {{-- end menu --}}
     </div>
     <section class="select_real_estate">
         <div class="column-gap-default">
@@ -1171,7 +1177,50 @@
                         <div class="elementor-widget-container">
                             <div class="elementor-icon-wrapper">
                                 <a class="elementor-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" id="Icons" height="512" viewBox="0 0 74 74" width="512"><path d="m54 72h-34a1 1 0 0 1 -1-1v-68a1 1 0 0 1 1.256-.967l34 9a1 1 0 0 1 .744.967v59a1 1 0 0 1 -1 1zm-33-2h32v-57.23l-32-8.47z"></path><path d="m71 72h-17a1 1 0 0 1 -1-1v-48a1 1 0 0 1 1-1h17a1 1 0 0 1 1 1v48a1 1 0 0 1 -1 1zm-16-2h15v-46h-15z"></path><path d="m3 41.47a1 1 0 0 1 -1-1v-2.91a1 1 0 0 1 2 0v2.91a1 1 0 0 1 -1 1z"></path><path d="m20 72h-17a1 1 0 0 1 -1-1v-13.56a1 1 0 0 1 2 0v12.56h15v-56h-15v16.56a1 1 0 1 1 -2 0v-17.56a1 1 0 0 1 1-1h17a1 1 0 0 1 1 1v58a1 1 0 0 1 -1 1z"></path><path d="m3 51.44a1 1 0 0 1 -1-1v-2.97a1 1 0 0 1 2 0v2.97a1 1 0 0 1 -1 1z"></path><path d="m20 26.667h-9.667a1 1 0 0 1 -1-1v-5.334a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.334a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.334h-7.667z"></path><path d="m20 39.333h-9.667a1 1 0 0 1 -1-1v-5.333a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.333a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.333h-7.667z"></path><path d="m20 52h-9.667a1 1 0 0 1 -1-1v-5.333a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.333a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.333h-7.667z"></path><path d="m20 64.667h-9.667a1 1 0 0 1 -1-1v-5.334a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.334a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.334h-7.667z"></path><path d="m47.375 25.562h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m32.562 25.562h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m47.375 37.969h-5.937a1 1 0 0 1 -1-1v-5.938a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.938a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.938h-3.937z"></path><path d="m32.562 37.969h-5.937a1 1 0 0 1 -1-1v-5.938a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.938a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.938h-3.937z"></path><path d="m47.375 50.375h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m32.562 50.375h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m47.375 62.781h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m32.562 62.781h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z"></path><path d="m66.542 35.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path><path d="m66.542 45.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path><path d="m66.542 55.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path><path d="m66.542 65.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z"></path></svg>
+                                    <svg height="512" id="Icons" viewbox="0 0 74 74" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="m54 72h-34a1 1 0 0 1 -1-1v-68a1 1 0 0 1 1.256-.967l34 9a1 1 0 0 1 .744.967v59a1 1 0 0 1 -1 1zm-33-2h32v-57.23l-32-8.47z">
+                                        </path>
+                                        <path d="m71 72h-17a1 1 0 0 1 -1-1v-48a1 1 0 0 1 1-1h17a1 1 0 0 1 1 1v48a1 1 0 0 1 -1 1zm-16-2h15v-46h-15z">
+                                        </path>
+                                        <path d="m3 41.47a1 1 0 0 1 -1-1v-2.91a1 1 0 0 1 2 0v2.91a1 1 0 0 1 -1 1z">
+                                        </path>
+                                        <path d="m20 72h-17a1 1 0 0 1 -1-1v-13.56a1 1 0 0 1 2 0v12.56h15v-56h-15v16.56a1 1 0 1 1 -2 0v-17.56a1 1 0 0 1 1-1h17a1 1 0 0 1 1 1v58a1 1 0 0 1 -1 1z">
+                                        </path>
+                                        <path d="m3 51.44a1 1 0 0 1 -1-1v-2.97a1 1 0 0 1 2 0v2.97a1 1 0 0 1 -1 1z">
+                                        </path>
+                                        <path d="m20 26.667h-9.667a1 1 0 0 1 -1-1v-5.334a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.334a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.334h-7.667z">
+                                        </path>
+                                        <path d="m20 39.333h-9.667a1 1 0 0 1 -1-1v-5.333a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.333a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.333h-7.667z">
+                                        </path>
+                                        <path d="m20 52h-9.667a1 1 0 0 1 -1-1v-5.333a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.333a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.333h-7.667z">
+                                        </path>
+                                        <path d="m20 64.667h-9.667a1 1 0 0 1 -1-1v-5.334a1 1 0 0 1 1-1h9.667a1 1 0 0 1 1 1v5.334a1 1 0 0 1 -1 1zm-8.667-2h7.667v-3.334h-7.667z">
+                                        </path>
+                                        <path d="m47.375 25.562h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z">
+                                        </path>
+                                        <path d="m32.562 25.562h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z">
+                                        </path>
+                                        <path d="m47.375 37.969h-5.937a1 1 0 0 1 -1-1v-5.938a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.938a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.938h-3.937z">
+                                        </path>
+                                        <path d="m32.562 37.969h-5.937a1 1 0 0 1 -1-1v-5.938a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.938a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.938h-3.937z">
+                                        </path>
+                                        <path d="m47.375 50.375h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z">
+                                        </path>
+                                        <path d="m32.562 50.375h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z">
+                                        </path>
+                                        <path d="m47.375 62.781h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z">
+                                        </path>
+                                        <path d="m32.562 62.781h-5.937a1 1 0 0 1 -1-1v-5.937a1 1 0 0 1 1-1h5.937a1 1 0 0 1 1 1v5.937a1 1 0 0 1 -1 1zm-4.937-2h3.937v-3.937h-3.937z">
+                                        </path>
+                                        <path d="m66.542 35.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z">
+                                        </path>
+                                        <path d="m66.542 45.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z">
+                                        </path>
+                                        <path d="m66.542 55.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z">
+                                        </path>
+                                        <path d="m66.542 65.333h-8.084a1 1 0 0 1 -1-1v-4.666a1 1 0 0 1 1-1h8.084a1 1 0 0 1 1 1v4.666a1 1 0 0 1 -1 1zm-7.084-2h6.084v-2.666h-6.084z">
+                                        </path>
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -1191,7 +1240,20 @@
                         <div class="elementor-widget-container">
                             <div class="elementor-icon-wrapper">
                                 <a class="elementor-icon" href="/property_category/villas/">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><g><path d="M496,464H472V272h8a8,8,0,0,0,8-8V240a8,8,0,0,0-8-8h-8V105.73l12.79,5.6A8,8,0,0,0,496,104V72a8,8,0,0,0-4.79-7.33l-128-56a8.052,8.052,0,0,0-6.42,0l-128,56A8,8,0,0,0,224,72v32a8,8,0,0,0,11.21,7.33l12.79-5.6V152H32a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H56v40H32a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8h8V464H16a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H496a8,8,0,0,0,8-8V472A8,8,0,0,0,496,464ZM240,91.77V77.23l120-52.5,120,52.5V91.77l-12.86-5.63a.076.076,0,0,1-.04-.02L363.21,40.67a8.025,8.025,0,0,0-6.42,0L252.9,86.12a.076.076,0,0,1-.04.02Zm216,6.96V232H264V98.73l96-42ZM40,176v-8H248v8Zm208,16v40H216V192Zm-48,0v40H168V192Zm-48,0v40H120V192Zm-48,0v40H72V192ZM40,248H472v8H40ZM352,352H280a8,8,0,0,0-8,8V464h-8V272H456V464H360V360A8,8,0,0,0,352,352Zm-8,16v96H288V368ZM232,312H72a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8V464H56V272H248V464H232V352a8,8,0,0,0,8-8V320A8,8,0,0,0,232,312ZM80,336v-8H224v8Zm136,16V464H88V352ZM488,488H24v-8H488Z"></path><path d="M376,424h64a8,8,0,0,0,8-8V360a8,8,0,0,0-8-8H376a8,8,0,0,0-8,8v56A8,8,0,0,0,376,424Zm8-56h48v40H384Z"></path><path d="M376,184h64a8,8,0,0,0,8-8V120a8,8,0,0,0-8-8H376a8,8,0,0,0-8,8v56A8,8,0,0,0,376,184Zm8-56h48v40H384Z"></path><path d="M280,184h64a8,8,0,0,0,8-8V120a8,8,0,0,0-8-8H280a8,8,0,0,0-8,8v56A8,8,0,0,0,280,184Zm8-56h48v40H288Z"></path><path d="M328,432a8,8,0,0,0,8-8V408a8,8,0,0,0-16,0v16A8,8,0,0,0,328,432Z"></path></g></svg>
+                                    <svg height="512" viewbox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path d="M496,464H472V272h8a8,8,0,0,0,8-8V240a8,8,0,0,0-8-8h-8V105.73l12.79,5.6A8,8,0,0,0,496,104V72a8,8,0,0,0-4.79-7.33l-128-56a8.052,8.052,0,0,0-6.42,0l-128,56A8,8,0,0,0,224,72v32a8,8,0,0,0,11.21,7.33l12.79-5.6V152H32a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H56v40H32a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8h8V464H16a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8H496a8,8,0,0,0,8-8V472A8,8,0,0,0,496,464ZM240,91.77V77.23l120-52.5,120,52.5V91.77l-12.86-5.63a.076.076,0,0,1-.04-.02L363.21,40.67a8.025,8.025,0,0,0-6.42,0L252.9,86.12a.076.076,0,0,1-.04.02Zm216,6.96V232H264V98.73l96-42ZM40,176v-8H248v8Zm208,16v40H216V192Zm-48,0v40H168V192Zm-48,0v40H120V192Zm-48,0v40H72V192ZM40,248H472v8H40ZM352,352H280a8,8,0,0,0-8,8V464h-8V272H456V464H360V360A8,8,0,0,0,352,352Zm-8,16v96H288V368ZM232,312H72a8,8,0,0,0-8,8v24a8,8,0,0,0,8,8V464H56V272H248V464H232V352a8,8,0,0,0,8-8V320A8,8,0,0,0,232,312ZM80,336v-8H224v8Zm136,16V464H88V352ZM488,488H24v-8H488Z">
+                                            </path>
+                                            <path d="M376,424h64a8,8,0,0,0,8-8V360a8,8,0,0,0-8-8H376a8,8,0,0,0-8,8v56A8,8,0,0,0,376,424Zm8-56h48v40H384Z">
+                                            </path>
+                                            <path d="M376,184h64a8,8,0,0,0,8-8V120a8,8,0,0,0-8-8H376a8,8,0,0,0-8,8v56A8,8,0,0,0,376,184Zm8-56h48v40H384Z">
+                                            </path>
+                                            <path d="M280,184h64a8,8,0,0,0,8-8V120a8,8,0,0,0-8-8H280a8,8,0,0,0-8,8v56A8,8,0,0,0,280,184Zm8-56h48v40H288Z">
+                                            </path>
+                                            <path d="M328,432a8,8,0,0,0,8-8V408a8,8,0,0,0-16,0v16A8,8,0,0,0,328,432Z">
+                                            </path>
+                                        </g>
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -1207,8 +1269,6 @@
             </div>
         </div>
     </section>
-
-
     <div class="classsort">
         <div class="elementor-widget-container">
             <div class="search_wrapper">
@@ -1218,24 +1278,24 @@
                     <div class="adv_search_tab" role="tabpanel">
                         <div class="nav nav-tabs" role="tablist">
                             <div class="adv_search_tab_item active" data="#rentals_elementor_search">
-                                <a aria-controls="rentals_elementor_search" class="elementor_search_tab_head" data-toggle="tab"  role="tab">
+                                <a aria-controls="rentals_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
                                     Rentals
                                 </a>
                             </div>
                             <div class="adv_search_tab_item" data="#sales_elementor_search">
-                                <a aria-controls="sales_elementor_search" class="elementor_search_tab_head" data-toggle="tab"  role="tab">
+                                <a aria-controls="sales_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
                                     Sales
                                 </a>
                             </div>
                             <div class="adv_search_tab_item" data="#invest_elementor_search">
-                                <a aria-controls="invest_elementor_search" class="elementor_search_tab_head" data-toggle="tab"  role="tab">
+                                <a aria-controls="invest_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
                                     Invest
                                 </a>
                             </div>
                         </div>
                         <div class="tab-content ">
                             <div class="tab-pane active" id="rentals_elementor_search" role="tabpanel">
-                                <form class="search_wr_elementor" action="https://wpresidence.net/advanced-search/" method="get" role="search">
+                                <form action="https://wpresidence.net/advanced-search/" class="search_wr_elementor" method="get" role="search">
                                     <input name="filter_search_action[]" type="hidden" value="rentals">
                                         <input name="adv6_search_tab" type="hidden" value="rentals">
                                             <input class="term_id_class" name="term_id" type="hidden" value="2">
@@ -1244,14 +1304,14 @@
                                                         <label class="elementor-field-label" for="form-field-name">
                                                             Categories
                                                         </label>
-                                                        <div class="dropdown form-control ">
-                                                            <div cacaall="" category="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ" property="" xxmaca="">
+                                                        <div class="dropdown form-control">
+                                                            <div aria-expanded="false" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ">
                                                                 Property Category
-                                                                <span class="caret caret_filter ">
+                                                                <span class="caret caret_filter">
                                                                 </span>
                                                             </div>
                                                             <input name="filter_search_type[]" type="hidden" value="">
-                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist" role="menu">
+                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist">
                                                                     <li data-value="all" role="presentation">
                                                                         Property Category
                                                                     </li>
@@ -1425,7 +1485,7 @@
                                 </form>
                             </div>
                             <div class="tab-pane " id="sales_elementor_search" role="tabpanel">
-                                <form class="search_wr_elementor" action="https://wpresidence.net/advanced-search/" method="get" role="search">
+                                <form action="https://wpresidence.net/advanced-search/" class="search_wr_elementor" method="get" role="search">
                                     <input name="filter_search_action[]" type="hidden" value="sales">
                                         <input name="adv6_search_tab" type="hidden" value="sales">
                                             <input class="term_id_class" name="term_id" type="hidden" value="3">
@@ -1435,13 +1495,13 @@
                                                             Category
                                                         </label>
                                                         <div class="dropdown form-control ">
-                                                            <div class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ" property="" xxmaca="">
+                                                            <div class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ2" property="" xxmaca="">
                                                                 Property Category
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="filter_search_type[]" type="hidden" value="">
-                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist" role="menu">
+                                                                <ul aria-labelledby="adv_categ2" class="dropdown-menu filter_menu" id="categlist" role="menu">
                                                                     <li data-value="all" role="presentation">
                                                                         Property Category
                                                                     </li>
@@ -1481,13 +1541,13 @@
                                                             City
                                                         </label>
                                                         <div class="dropdown form-control ">
-                                                            <div cacaall="" city="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_city" property="" xxmaca="">
+                                                            <div cacaall="" city="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_city2" property="" xxmaca="">
                                                                 Property City
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="advanced_city" type="hidden" value="">
-                                                                <ul aria-labelledby="advanced_city" class="dropdown-menu filter_menu" id="adv-search-city" role="menu">
+                                                                <ul aria-labelledby="advanced_city2" class="dropdown-menu filter_menu" id="adv-search-city" role="menu">
                                                                     <li data-value="all" role="presentation">
                                                                         Property City
                                                                     </li>
@@ -1504,20 +1564,35 @@
                                                             </input>
                                                         </div>
                                                     </div>
-                                                    <div class="field-group-message" style="width:40%;">
-
+                                                    <div class="field-group-message group-message">
                                                         <p>
-                                                        <label class="elementor-field-label">Price range:</label>
-                                                        <span class="wpresidence_slider_price">$ <span id="min">10</span> to $ <span id="max">100</span> </span>
+                                                            <label class="elementor-field-label">
+                                                                Price range:
+                                                            </label>
+                                                            <span class="wpresidence_slider_price">
+                                                                $
+                                                                <span id="min">
+                                                                    10
+                                                                </span>
+                                                                to $
+                                                                <span id="max">
+                                                                    100
+                                                                </span>
+                                                            </span>
                                                         </p>
                                                         <div class="range-slide">
-                                                          <div class="slide">
-                                                            <div class="line" id="line" style="left: 0%; right: 0%;"></div>
-                                                            <span class="thumb" id="thumbMin" style="left: 0%;"></span>
-                                                            <span class="thumb" id="thumbMax" style="left: 100%;"></span>
-                                                          </div>
-                                                          <input id="rangeMin" type="range" max="100" min="10" step="5" value="0">
-                                                          <input id="rangeMax" type="range" max="100" min="10" step="5" value="100">
+                                                            <div class="slide">
+                                                                <div class="line" id="line" style="left: 0%; right: 0%;">
+                                                                </div>
+                                                                <span class="thumb" id="thumbMin" style="left: 0%;">
+                                                                </span>
+                                                                <span class="thumb" id="thumbMax" style="left: 100%;">
+                                                                </span>
+                                                            </div>
+                                                            <input id="rangeMin" max="100" min="10" step="5" type="range" value="0">
+                                                                <input id="rangeMax" max="100" min="10" step="5" type="range" value="100">
+                                                                </input>
+                                                            </input>
                                                         </div>
                                                     </div>
                                                     <div class="field-group-message">
@@ -1539,7 +1614,7 @@
                                 </form>
                             </div>
                             <div class="tab-pane " id="invest_elementor_search" role="tabpanel">
-                                <form class="search_wr_elementor" action="https://wpresidence.net/advanced-search/" method="get" role="search">
+                                <form action="https://wpresidence.net/advanced-search/" class="search_wr_elementor" method="get" role="search">
                                     <input name="filter_search_action[]" type="hidden" value="invest">
                                         <input name="adv6_search_tab" type="hidden" value="invest">
                                             <input class="term_id_class" name="term_id" type="hidden" value="2697">
@@ -1549,13 +1624,13 @@
                                                             Property Category
                                                         </label>
                                                         <div class="dropdown form-control ">
-                                                            <div cacaall="" category="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ" property="" xxmaca="">
+                                                            <div cacaall="" category="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ3" property="" xxmaca="">
                                                                 Property Category
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="filter_search_type[]" type="hidden" value="">
-                                                                <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist" role="menu">
+                                                                <ul aria-labelledby="adv_categ3" class="dropdown-menu filter_menu" id="categlist" role="menu">
                                                                     <li data-value="all" role="presentation">
                                                                         Property Category
                                                                     </li>
