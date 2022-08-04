@@ -119,6 +119,17 @@ $(document).ready(function () {
     	document.getElementById('forgot-div-title-topbar').style.display = "block";
     });
 
+    $(".toggle-password").click(function() {
+
+	  $(this).toggleClass("fa-eye fa-eye-slash");
+	  var input = $($(this).attr("toggle"));
+	  if (input.attr("type") == "password") {
+	    input.attr("type", "text");
+	  } else {
+	    input.attr("type", "password");
+	  }
+	});
+
 	function isOnScreen(elem) {
         if( elem.length == 0 ) {
             return;

@@ -1891,6 +1891,104 @@ nav .angledown {
     box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
 }
 
+.mobilewrapper-user {
+    display: none;
+    min-height: 100%;
+    position: fixed;
+    overflow-x: hidden!important;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    z-index: 9999;
+}
+
+.snap-drawers {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+
+.snap-drawer {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: auto;
+    width: 265px;
+    height: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -ms-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+    background-color: #161d21;
+}
+
+.snap-drawer-right {
+    right: 0px;
+    padding-top: 18px;
+}
+
+.mobilemenu-close-user i, .mobilemenu-close i {
+    font-size: 15px;
+    padding: 3px 0px 0px 8px;
+}
+.mobilemenu-close-user, .mobilemenu-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    color: #FFFFFF;
+}
+
+.mobilewrapper-user .login_sidebar {
+    width: 254px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.login_form {
+    padding: 9px 15px 15px 15px;
+    border: 0px solid #e5e5e5;
+    width: 100%;
+    border-radius: 2px;
+    display: inline-block;
+}
+#login_user_mobile, #login_pwd_mobile{
+    margin-bottom: 15px;
+}
+
+#widget_register_mobile, #forgot_pass_mobile{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#login-div-title-mobile, #register-div-title-mobile, #forgot-div-title-mobile {
+    font-size: 16px;
+    color: #fff;
+    padding-left: 13px;
+}
+
 @media only screen and (max-width: 550px){
     .select_real_estate .column-gap-default .inner-column{
         width: 23%;

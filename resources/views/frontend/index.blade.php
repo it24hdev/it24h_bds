@@ -8,8 +8,13 @@
 @include('frontend.layouts.login')
 @endsection
 
+
 @section('menu-mobile')
 @include('frontend.layouts.menu-mobile')
+@endsection
+
+@section('login-mobile')
+@include('frontend.layouts.login-mobile')
 @endsection
 
 @section('content')

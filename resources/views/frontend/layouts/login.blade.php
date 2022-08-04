@@ -21,7 +21,7 @@
                 <input autofocus="" class="form-control" id="login_user_topbar" name="log" placeholder="Username" type="text">
                     <div class="password_holder">
                         <input class="form-control" id="login_pwd_topbar" name="pwd" placeholder="Password" type="password">
-                            <i class=" far fa-eye-slash show_hide_password">
+                            <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#login_pwd_topbar">
                             </i>
                         </input>
                     </div>
@@ -60,13 +60,13 @@
                     <input class="form-control" id="user_email_register_topbar" name="user_email_register" placeholder="Email" type="email">
                         <div class="password_holder">
                             <input class="form-control" id="user_password_topbar" name="user_password" placeholder="Password" type="password">
-                                <i class=" far fa-eye-slash show_hide_password">
+                                <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_topbar">
                                 </i>
                             </input>
                         </div>
                         <div class="password_holder">
                             <input class="form-control" id="user_password_topbar_retype" name="user_password_retype" placeholder="Retype Password" type="password">
-                                <i class=" far fa-eye-slash show_hide_password">
+                                <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_topbar_retype">
                                 </i>
                             </input>
                         </div>
