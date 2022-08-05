@@ -54,7 +54,7 @@
                                 <a href="/favorite-listings/">
                                     <i class="fas fa-heart">
                                     </i>
-                                    Favorites
+                                    @lang('lang.Favorites')
                                 </a>
                             </div>
                         </li>
@@ -74,6 +74,22 @@
                                 </a>
                             </div>
                         </li>
+                        <li class="widget_text widget-container widget_custom_html" id="custom_html-3">
+                            <div class="textwidget custom-html-widget">
+                                <div class="float-end mobilelanguage">
+                                   <div class="dropdown dropdown-menucolor">
+                                          <div class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                            @lang('lang.Language')
+                                          </div>
+
+                                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="{!! route('app.setLocale',['vi']) !!}">@lang('lang.Vietnamese')</a></li>
+                                            <li><a class="dropdown-item" href="{!! route('app.setLocale',['en']) !!}">@lang('lang.English')</a></li>
+                                          </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -88,7 +104,7 @@
             </div>
             <div class="mobile-logo">
                 <a href="https://wpresidence.net">
-                    <img alt="image" class="img-responsive retina_ready" src="https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png">
+                    <img alt="image" class="img-responsive retina_ready" src="{{asset('asset/images/transparentopt.png')}}">
                     </img>
                 </a>
             </div>
@@ -104,7 +120,7 @@
             <div class="header_wrapper_inside full_width_header " data-logo="https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png" data-sticky-logo="https://wpresidence.net/wp-content/uploads/2019/11/logo.png">
                 <div class="logo">
                     <a href="https://wpresidence.net">
-                        <img alt="company logo" class="img-responsive retina_ready" id="logo_image" src="https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png" style="margin-top:0px;"/>
+                        <img alt="company logo" class="img-responsive retina_ready" id="logo_image" src="{{asset('asset/images/transparentopt.png')}}" style="margin-top:0px;"/>
                     </a>
                 </div>
                 <div class="user_menu user_not_loged" id="user_menu_u">

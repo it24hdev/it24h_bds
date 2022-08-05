@@ -208,12 +208,12 @@ $(document).ready(function () {
 		if(jQuery(window).scrollTop() >200 && ($(".header_bar").hasClass("master_header_sticky") == false)){
 			$(".header_bar").addClass("master_header_sticky");
 			$(".header_wrapper").addClass("customnav");
-			document.getElementById("logo_image").src = "https://wpresidence.net/wp-content/uploads/2019/11/logo.png";
+			document.getElementById("logo_image").src = "/asset/images/logo.png";
 		}
 		if(jQuery(window).scrollTop() <200 && ($(".header_bar").hasClass("master_header_sticky") == true)){
 			$(".header_bar").removeClass("master_header_sticky");
 			$(".header_wrapper").removeClass("customnav");
-			document.getElementById("logo_image").src = "https://wpresidence.net/wp-content/uploads/2020/07/transparentopt.png";
+			document.getElementById("logo_image").src = "/asset/images/transparentopt.png";
 		}
 	}
 	$(window).scroll(runOnScroll);
