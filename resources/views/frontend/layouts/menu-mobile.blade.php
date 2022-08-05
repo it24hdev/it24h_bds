@@ -5,7 +5,7 @@
         <div class="mobile-nav-tabs">
             <ul>
             <li class="mobile-tab-title mobile-pages-title active" data-menu="pages"><span>Menu</span></li>
-            <li class="mobile-tab-title mobile-categories-title" data-menu="categories"><span>@lang('lang.Shopbydepartment')</span></li>
+            <li class="mobile-tab-title mobile-categories-title" data-menu="categories"><span>@lang('lang.Menusecond')</span></li>
             </ul>
         </div>
     <nav id="subpage" class="mobile-menu-tab mobile-navigation mobile-pages-menu" aria-label="Mobile Navigation">
@@ -14,24 +14,10 @@
         <li class="menu-item "><a href="{{route('home')}}">@lang('lang.Home')</a>
             <button class="angledown"><i class="fal fa-angle-down fa-xs"></i></button>
         </li>
-        <li class="menu-item "><a href=" # {{-- {{route('list_product')}} --}}">@lang('lang.Shop')</a>
+        <li class="menu-item "><a href=" # {{-- {{route('list_product')}} --}}">Danh mục phụ cấp 1</a>
             <button class="angledown" id='menuitem-699'><i class="fal fa-angle-down fa-xs"></i></button>
             <ul class="sub-menu2" id='sub-menuitem-699' >
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-            </ul>
-        </li>
-
-        <li class="menu-item "><a href="{{-- {{route('categoryBlogs')}} --}}#">@lang('lang.Blog')</a>
-            <button class="angledown" id='menuitem-689'><i class="fal fa-angle-down fa-xs"></i></button>
-            <ul class="sub-menu2" id='sub-menuitem-689'>
-                {{--  @foreach($getcategoryblog as $cat_blog)
-                <li class="menu-item">
-                    <a href="{{route('categoryBlog',[$cat_blog->slug])}}">{{$cat_blog->name}}</a>
-                </li>
-                @endforeach --}}
+                <li class="menu-item"><a href="#">Danh mục phụ cấp 2</a></li>
             </ul>
         </li>
         </ul>
@@ -40,13 +26,10 @@
     <nav id="subcate" class="mobile-menu-tab mobile-navigation-categories mobile-categories-menu" aria-label="Mobile Navigation">
         <div class="handheld-navigation">
         <ul id="menu-shop-by-department" class="menu">
-        <li class="menu-item "><a href=" # {{-- {{route('list_product')}} --}}">@lang('lang.Shop')</a>
+        <li class="menu-item "><a href=" # {{-- {{route('list_product')}} --}}">Danh mục phụ cấp 1</a>
             <button class="angledown" id='menuitem-64'><i class="fal fa-angle-down fa-xs"></i></button>
             <ul class="sub-menu2" id='sub-menuitem-64' >
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-                <li class="menu-item"><a href="#">Category name 1</a></li>
-                <li class="menu-item"><a href="#">Category name 1</a></li>
+                <li class="menu-item"><a href="#">Danh mục phụ cấp 2</a></li>
             </ul>
         </li>
         {{-- @foreach($Sidebars as $Sidebar)
@@ -84,8 +67,8 @@
     </nav>
     </div>
     <div class="languagemobile">   
-    {{-- <a class="langm" href="{!! route('app.setLocale',['vi']) !!}"><img src="{{asset('asset/images/VNicon.png')}}" alt="logo" width="10%" height="auto"></a>   --}}
-    {{-- <a class="langm" href="{!! route('app.setLocale',['en']) !!}"><img src="{{asset('asset/images/ENicon.png')}}" alt="logo" width="10%" height="auto"></a>           --}}
+    <a class="langm" href="{!! route('app.setLocale',['vi']) !!}"><img src="{{asset('asset/images/VNicon.png')}}" alt="logo" width="10%" height="auto"></a>  
+    <a class="langm" href="{!! route('app.setLocale',['en']) !!}"><img src="{{asset('asset/images/ENicon.png')}}" alt="logo" width="10%" height="auto"></a>          
      </div>
 </div>
 </div>

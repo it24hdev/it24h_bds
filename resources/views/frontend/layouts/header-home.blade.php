@@ -131,7 +131,7 @@
                         </div>
                     </a>
                     <a class=" submit_listing" href="https://wpresidence.net/add-listing/">
-                        Add Listing
+                      @lang('lang.AddListing')  
                     </a>
                     <div class="submit_action">
                         <svg enable-background="new 0 0 100 100" version="1.1" viewbox="0 0 100 125" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
@@ -160,7 +160,7 @@
                         <ul class="menu" id="menu-mega-menu">
                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children no-megamenu " id="menu-item-7999">
                                 <a class="menu-item-link" href="#">
-                                    Home
+                                    @lang('lang.Home')
                                 </a>
                                 <ul class=" sub-menu " style="">
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page " id="menu-item-28346">
@@ -1144,7 +1144,7 @@
                     <div class="widgetpopulated">
                         <div class="elementor-widget-container">
                             <h2 class="elementor-heading-title elementor-size-default">
-                                houses
+                                @lang('lang.Houses')
                             </h2>
                         </div>
                     </div>
@@ -1181,7 +1181,7 @@
                     <div class="widgetpopulated">
                         <div class="elementor-widget-container">
                             <h2 class="elementor-heading-title elementor-size-default">
-                                apartments
+                               @lang('lang.Apartments') 
                             </h2>
                         </div>
                     </div>
@@ -1244,7 +1244,7 @@
                     <div class="widgetpopulated">
                         <div class="elementor-widget-container">
                             <h2 class="elementor-heading-title elementor-size-default">
-                                offices
+                                @lang('lang.Offices')
                             </h2>
                         </div>
                     </div>
@@ -1277,7 +1277,7 @@
                     <div class="widgetpopulated">
                         <div class="elementor-widget-container">
                             <h2 class="elementor-heading-title elementor-size-default">
-                                villas
+                                @lang('lang.Villas')
                             </h2>
                         </div>
                     </div>
@@ -1295,44 +1295,40 @@
                         <div class="nav2 nav-tabs" role="tablist">
                             <div class="adv_search_tab_item active" data="#rentals_elementor_search">
                                 <a aria-controls="rentals_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
-                                    Rentals
+                                    @lang('lang.Rentals')
                                 </a>
                             </div>
                             <div class="adv_search_tab_item" data="#sales_elementor_search">
                                 <a aria-controls="sales_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
-                                    Sales
+                                    @lang('lang.Sales')
                                 </a>
                             </div>
                             <div class="adv_search_tab_item" data="#invest_elementor_search">
                                 <a aria-controls="invest_elementor_search" class="elementor_search_tab_head" data-toggle="tab" role="tab">
-                                    Invest
+                                    @lang('lang.Invest')
                                 </a>
                             </div>
                         </div>
                         <div class="tab-content ">
                             <div class="tab-pane active" id="rentals_elementor_search" role="tabpanel">
-                                <form action="https://wpresidence.net/advanced-search/" class="search_wr_elementor" method="get" role="search">
+                                <form action="#" class="search_wr_elementor" method="get" role="search">
                                     <input name="filter_search_action[]" type="hidden" value="rentals">
                                         <input name="adv6_search_tab" type="hidden" value="rentals">
                                             <input class="term_id_class" name="term_id" type="hidden" value="2">
                                                 <input class="term_counter" name="term_counter" type="hidden" value="0">
                                                     <div class="field-group-message">
-                                                        <label class="elementor-field-label" for="form-field-name">
-                                                            Categories
+                                                        <label class="elementor-field-label" for="form-field-name">@lang('lang.Categories')
                                                         </label>
                                                         <div class="dropdown form-control">
                                                             <div aria-expanded="false" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ">
-                                                                Property Category
+                                                               @lang('lang.PropertyCategory') 
                                                                 <span class="caret caret_filter">
                                                                 </span>
                                                             </div>
                                                             <input name="filter_search_type[]" type="hidden" value="">
                                                                 <ul aria-labelledby="adv_categ" class="dropdown-menu filter_menu" id="categlist">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property Category
-                                                                    </li>
-                                                                    <li data-value="all" role="presentation">
-                                                                        Categories
+                                                                         @lang('lang.All') 
                                                                     </li>
                                                                     <li data-value="apartments" role="presentation">
                                                                         Apartments
@@ -1364,21 +1360,18 @@
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-message">
-                                                            City
+                                                            @lang('lang.City') 
                                                         </label>
                                                         <div class="dropdown form-control ">
                                                             <div cacaall="" city="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_city" property="" xxmaca="">
-                                                                Property City
+                                                                @lang('lang.AllCity') 
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="advanced_city" type="hidden" value="">
                                                                 <ul aria-labelledby="advanced_city" class="dropdown-menu filter_menu" id="adv-search-city" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property City
-                                                                    </li>
-                                                                    <li data-value="all" data-value2="all" role="presentation">
-                                                                        Cities
+                                                                        @lang('lang.AllCity')
                                                                     </li>
                                                                     <li data-parentcounty="new-jersey-state" data-value="jersey-city" data-value2="jersey-city" role="presentation">
                                                                         Jersey City
@@ -1392,21 +1385,18 @@
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-6df48a4">
-                                                            Area
+                                                            @lang('lang.District')
                                                         </label>
                                                         <div class="dropdown form-control ">
-                                                            <div area="" cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_area" property="" xxmaca="">
-                                                                Property Area
+                                                            <div area="" cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_district" property="" xxmaca="">
+                                                                @lang('lang.AllDistrict')
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
-                                                            <input name="advanced_area" type="hidden" value="">
-                                                                <ul aria-labelledby="advanced_area" class="dropdown-menu filter_menu" id="adv-search-area" role="menu">
+                                                            <input name="advanced_district" type="hidden" value="">
+                                                                <ul aria-labelledby="advanced_district" class="dropdown-menu filter_menu" id="adv-search-advanced_district" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property Area
-                                                                    </li>
-                                                                    <li data-value="all" role="presentation">
-                                                                        Areas
+                                                                       @lang('lang.AllDistrict')
                                                                     </li>
                                                                     <li data-parentcity="jersey-city" data-value="bayonne" role="presentation">
                                                                         Bayonne
@@ -1435,18 +1425,18 @@
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-3ded8d9">
-                                                            Rooms
+                                                            @lang('lang.Area')
                                                         </label>
                                                         <div class="dropdown form-control ">
-                                                            <div cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="rooms" maca="" number="" rooms="" xx="">
-                                                                Rooms Number
+                                                            <div cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="area" maca="" number="" area="" xx="">
+                                                                 @lang('lang.AllArea')
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
-                                                            <input doithere="" name="rooms" type="hidden" value="">
-                                                                <ul aria-labelledby="rooms" class="dropdown-menu filter_menu" id="search-rooms" role="menu">
+                                                            <input doithere="" name="area" type="hidden" value="">
+                                                                <ul aria-labelledby="area" class="dropdown-menu filter_menu" id="search-area" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Rooms Number
+                                                                         @lang('lang.AllArea')
                                                                     </li>
                                                                     <li data-value="1" value="1">
                                                                         1
@@ -1490,7 +1480,7 @@
                                                                     </path>
                                                                 </svg>
                                                             </div>
-                                                            Search
+                                                            @lang('lang.Search')
                                                         </button>
                                                     </div>
                                                     <input name="elementor_form_id" type="hidden" value="26087"/>
@@ -1508,18 +1498,18 @@
                                                 <input class="term_counter" name="term_counter" type="hidden" value="1">
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-1321f3f">
-                                                            Category
+                                                            @lang('lang.Categories')
                                                         </label>
                                                         <div class="dropdown form-control ">
                                                             <div class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ2" property="" xxmaca="">
-                                                                Property Category
+                                                                 @lang('lang.PropertyCategory')
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="filter_search_type[]" type="hidden" value="">
                                                                 <ul aria-labelledby="adv_categ2" class="dropdown-menu filter_menu" id="categlist" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property Category
+                                                                        @lang('lang.PropertyCategory')
                                                                     </li>
                                                                     <li data-value="all" role="presentation">
                                                                         Categories
@@ -1554,18 +1544,18 @@
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-11e1907">
-                                                            City
+                                                            @lang('lang.City')
                                                         </label>
                                                         <div class="dropdown form-control ">
                                                             <div cacaall="" city="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="advanced_city2" property="" xxmaca="">
-                                                                Property City
+                                                                @lang('lang.AllCity')
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="advanced_city" type="hidden" value="">
                                                                 <ul aria-labelledby="advanced_city2" class="dropdown-menu filter_menu" id="adv-search-city" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property City
+                                                                    @lang('lang.AllCity')
                                                                     </li>
                                                                     <li data-value="all" data-value2="all" role="presentation">
                                                                         Cities
@@ -1583,7 +1573,7 @@
                                                     <div class="field-group-message group-message">
                                                         <p>
                                                             <label class="elementor-field-label">
-                                                                Price range:
+                                                              @lang('lang.Pricerange'):
                                                             </label>
                                                             <span class="wpresidence_slider_price">
                                                                 $
@@ -1619,7 +1609,7 @@
                                                                     </path>
                                                                 </svg>
                                                             </div>
-                                                            Search
+                                                            @lang('lang.Search')
                                                         </button>
                                                     </div>
                                                     <input name="elementor_form_id" type="hidden" value="26087"/>
@@ -1637,18 +1627,18 @@
                                                 <input class="term_counter" name="term_counter" type="hidden" value="2">
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-6d19573">
-                                                            Property Category
+                                                            @lang('lang.Categories') 
                                                         </label>
                                                         <div class="dropdown form-control ">
                                                             <div cacaall="" category="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_categ3" property="" xxmaca="">
-                                                                Property Category
+                                                                @lang('lang.PropertyCategory') 
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="filter_search_type[]" type="hidden" value="">
                                                                 <ul aria-labelledby="adv_categ3" class="dropdown-menu filter_menu" id="categlist" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property Category
+                                                                       @lang('lang.PropertyCategory') 
                                                                     </li>
                                                                     <li data-value="all" role="presentation">
                                                                         Categories
@@ -1683,30 +1673,30 @@
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-b16f659">
-                                                            Min Size
+                                                            @lang('lang.MinSize')
                                                         </label>
-                                                        <input class="advanced_select form-control" id="min-size" name="min-size" placeholder="Property Size" type="text" value=""/>
+                                                        <input class="advanced_select form-control" id="min-size" name="min-size" placeholder="@lang('lang.MinSize')" type="text" value=""/>
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-1ab64d9">
-                                                            Min Lot size
+                                                            @lang('lang.MinLotsize')
                                                         </label>
-                                                        <input class="advanced_select form-control" id="min-lot-size" name="min-lot-size" placeholder="Property Lot Size" type="text" value=""/>
+                                                        <input class="advanced_select form-control" id="min-lot-size" name="min-lot-size" placeholder="@lang('lang.MinLotsize')" type="text" value=""/>
                                                     </div>
                                                     <div class="field-group-message">
                                                         <label class="elementor-field-label" for="form-field-4081c53">
-                                                            Status
+                                                             @lang('lang.Status')
                                                         </label>
                                                         <div class="dropdown form-control ">
                                                             <div cacaall="" class=" filter_menu_trigger " data-toggle="dropdown" data-value="all" id="adv_status" property="" status="" xxmaca="">
-                                                                Property Status
+                                                                @lang('lang.PropertyStatus')
                                                                 <span class="caret caret_filter ">
                                                                 </span>
                                                             </div>
                                                             <input name="property_status" type="hidden" value="">
                                                                 <ul aria-labelledby="adv_status" class="dropdown-menu filter_menu" id="statuslist" role="menu">
                                                                     <li data-value="all" role="presentation">
-                                                                        Property Status
+                                                                        @lang('lang.PropertyStatus')
                                                                     </li>
                                                                     <li data-value="active" role="presentation">
                                                                         Active (6)
@@ -1735,7 +1725,7 @@
                                                                     </path>
                                                                 </svg>
                                                             </div>
-                                                            Search
+                                                            @lang('lang.Search')
                                                         </button>
                                                     </div>
                                                     <input name="elementor_form_id" type="hidden" value="26087"/>
