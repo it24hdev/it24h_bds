@@ -759,20 +759,10 @@ img {
 #wp-submit-register_topbar, #wp-login-but-topbar, #wp-forgot-but-topbar {
     width: 100%;
     margin-bottom: 0px;
+    top: 10px;
+    list-style: 2!important;
 }
 
-
-#wp-login-but-topbar{
-    border-radius: 3px;
-    top: 20px;
-    max-height: 35px;
-    position: relative;
-    padding: 0.5em;
-    background-image: linear-gradient(to right, transparent 50%, #0073e1 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    font-size: 15px;
-}
 #register-div-topbar, #forgot-pass-div, #login-div_topbar {
     padding: 0px 45px 0px 45px;
     text-align: left;
@@ -1024,6 +1014,13 @@ svg:not(:root) {
     line-height: 0px;
 }
 
+#access ul ul ul{
+    left: 285px;
+}
+
+#access ul ul li:hover ul{
+    top: -26px;
+}
 
 #access li {
     display: inline-block;
@@ -1691,18 +1688,7 @@ svg:not(:root) {
     font-family: "Nunito Sans", Sans-serif;
     font-size: 14px;
     font-weight: 400;
-}
-#wp-login-but-topbar:hover{
-    text-decoration: none;
-    background-color: #ffffff;
-    transition: all 300ms ease;
-    webkit-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    border-color: #0073E1;
-    color: #0073E1 !important;
-    padding: 10px 13px;
-}
-    
+}    
 
 .mobile_header {
     background-color: #001a33;
@@ -1784,7 +1770,7 @@ svg:not(:root) {
     z-index: 9999;
     overflow: hidden;
     overflow-y: auto;
-    background-color: #fff;
+    background-color: #161d21;
     opacity: 0;
     visibility: hidden;
     transition: transform .25s ease;
@@ -1803,11 +1789,15 @@ svg:not(:root) {
     height: 20px;
     text-align: center;
     z-index: 99;
-    color: #212529;
+    color: #ffffff;
+   
+}
+.mobile-nav-close i{
+    font-weight: 700;
 }
 .mobilenavs .mobile-nav-tabs {
     clear: both;
-    background-color: #f7f7f7;
+    background-color: #001a33;
 }
 
 .mobilenavs .mobile-nav-tabs ul {
@@ -1828,13 +1818,13 @@ svg:not(:root) {
     align-items: center;
     position: relative;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     cursor: pointer;
-    color: #212529;
+    color: #ffffff;
 }
 
 .mobilenavs .mobile-nav-tabs ul li.active:before {
@@ -1858,7 +1848,7 @@ svg:not(:root) {
     transform: scale(.6);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    background-color: #1558E5;
+    background-color: #ffffff;
 }
 .mobilenavs .mobile-nav-tabs ul .mobile-categories-title {
     margin-left: 15px;
@@ -1870,7 +1860,7 @@ svg:not(:root) {
 
 .mobile-navigation ul>li.menu-item, .mobile-navigation-categories ul>li.menu-item {
     position: relative;
-    line-height: 27px ;
+    line-height: 20px;
 }
 
 nav .sub-menu2 {
@@ -1883,7 +1873,7 @@ nav .sub-menu2 {
     font-size: 14px;
     border-bottom: 1px solid;
     border-bottom-color: #efefef;
-    color: #212529;
+    color: #ffffff;
     text-decoration: none;
     list-style: none;
 }
@@ -1899,17 +1889,18 @@ nav .sub-menu2 {
 }
 
 nav .angledown {
-    background-color: white;
+    background-color: #161d21;
     position: absolute;
     top: 0;
     right: 0;
     display: block;
     padding: 17px 0;
     line-height: 1;
-    width: 30px;
+    /*width: 30px;*/
     text-align: right;
     border: none;
     font-size: 16px;
+    color: #ffffff;
 }
 
 .form-control:focus {
@@ -2004,18 +1995,36 @@ h3 {
     margin-bottom: 15px;
 }
 
-#widget_register_mobile, #forgot_pass_mobile{
+#widget_register_mobile, #forgot_pass_mobile ,#user_terms_register_mobile_label,
+#widget_login_mobile, #user_terms_register_mobile_link, #return_login_mobile{
     color: #fff;
     font-size: 14px;
     font-weight: 300;
 }
 
-#login-div-title-mobile, #register-div-title-mobile, #forgot-div-title-mobile {
+#login-div-title-mobile, #register-div-title-mobile, #forgot-div-title-mobile{
     font-size: 16px;
     color: #fff;
     padding-left: 13px;
 }
 
+
+#forgot_email_mobile{
+    margin-bottom: 15px;
+}
+
+#forgot-pass-div-mobile{
+    display: none;
+}
+
+.login_form .form-control{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.login_sidebar .show_hide_password{
+    top:  10px;
+}
 @media only screen and (max-width: 550px){
     .select_real_estate .column-gap-default .inner-column{
         width: 23%;
@@ -2059,6 +2068,9 @@ h3 {
     }
     .group-message{
     width: 100%!important;
+    }
+    .header_bar{
+        position: absolute;
     }
 }
 @media only screen and (max-width: 1440px){

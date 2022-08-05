@@ -75,7 +75,7 @@ $(document).ready(function () {
     	document.getElementById('widget_login_topbar').style.display = "none";
     	document.getElementById('register-div-topbar').style.display = "none";
     	document.getElementById('register-div-title-topbar').style.display = "none";
-    	document.getElementById('wp-login-but-topbar').style.display = "block";
+    	document.getElementById('wp-login-but-topbar').style.display = "inline-flex";
     	document.getElementById('login-div-title-topbar').style.display = "block";
     	document.getElementById('login_message_area_topbar').style.display = "block";
     	document.getElementsByClassName('login-links')[0].style.display = "block";
@@ -130,6 +130,7 @@ $(document).ready(function () {
 	  }
 	});
 
+
     $(".mobile-trigger-user").on("click",function(){
     	document.getElementById('mobilewrapperuser').style.visibility = "visible";
     	document.getElementById('mobilewrapperuser').style.opacity = "1";
@@ -144,6 +145,43 @@ $(document).ready(function () {
     	document.getElementById("mobilewrapperuser").style.transition = "transform .25s ease";
     });
 
+    $("#widget_register_mobile").on("click",function(){
+    	document.getElementById('login-div_mobile').style.display = "none";
+    	document.getElementById('login-div-title-mobile').style.display = "none";
+    	document.getElementById('forgot-div-title-mobile').style.display = "none";
+    	document.getElementById('forgot-pass-div-mobile').style.display = "none";
+    	document.getElementById('register-div-mobile').style.display = "block";
+    	document.getElementById('register-div-title-mobile').style.display = "block";
+    });
+
+    $("#widget_login_mobile").on("click",function(){
+    	document.getElementById('login-div_mobile').style.display = "block";
+    	document.getElementById('login-div-title-mobile').style.display = "block";
+    	document.getElementById('forgot-div-title-mobile').style.display = "none";
+    	document.getElementById('forgot-pass-div-mobile').style.display = "none";
+    	document.getElementById('register-div-mobile').style.display = "none";
+    	document.getElementById('register-div-title-mobile').style.display = "none";
+    });
+    
+    $("#forgot_pass_mobile").on("click",function(){
+    	document.getElementById('login-div_mobile').style.display = "none";
+    	document.getElementById('login-div-title-mobile').style.display = "none";
+    	document.getElementById('forgot-div-title-mobile').style.display = "block";
+    	document.getElementById('forgot-pass-div-mobile').style.display = "block";
+    	document.getElementById('register-div-mobile').style.display = "none";
+    	document.getElementById('register-div-title-mobile').style.display = "none";
+    });
+
+
+    $("#return_login_mobile").on("click",function(){
+    	document.getElementById('login-div_mobile').style.display = "block";
+    	document.getElementById('login-div-title-mobile').style.display = "block";
+    	document.getElementById('forgot-div-title-mobile').style.display = "none";
+    	document.getElementById('forgot-pass-div-mobile').style.display = "none";
+    	document.getElementById('register-div-mobile').style.display = "none";
+    	document.getElementById('register-div-title-mobile').style.display = "none";
+    });
+   
 	
 
 	function isOnScreen(elem) {

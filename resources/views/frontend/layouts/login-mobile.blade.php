@@ -15,14 +15,14 @@
                     <input autofocus="" class="form-control" id="login_user_mobile" name="log" placeholder="Username" type="text">
                         <div class="password_holder">
                             <input class="form-control" id="login_pwd_mobile" name="pwd" placeholder="Password" type="password">
-                                <i class=" far fa-eye-slash show_hide_password">
+                                <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#login_pwd_mobile">
                                 </i>
                             </input>
                         </div>
                         <input id="loginpop_wd_mobile" name="loginpop" type="hidden" value="0">
                             <input id="security-login-mobile" name="security-login-mobile" type="hidden" value="b2ce5f3955-1659598005">
                                 <button class="wpresidence_button" id="wp-login-but-mobile">
-                                    Login
+                                    Login 
                                 </button>
                                 <div class="login-links">
                                     <a href="#" id="widget_register_mobile">
@@ -57,13 +57,13 @@
                         <input class="form-control" id="user_email_register_mobile" name="user_email_register" placeholder="Email" type="email">
                             <div class="password_holder">
                                 <input class="form-control" id="user_password_mobile" name="user_password" placeholder="Password" type="password">
-                                    <i class=" far fa-eye-slash show_hide_password">
+                                    <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_mobile">
                                     </i>
                                 </input>
                             </div>
                             <div class="password_holder">
                                 <input class="form-control" id="user_password_mobile_retype" name="user_password_retype" placeholder="Retype Password" type="password">
-                                    <i class=" far fa-eye-slash show_hide_password">
+                                    <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_mobile_retype">
                                     </i>
                                 </input>
                             </div>

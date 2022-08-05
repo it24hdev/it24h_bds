@@ -27,7 +27,7 @@
                     </div>
                     <input id="loginpop_wd_topbar" name="loginpop" type="hidden" value="0">
                         <input id="security-login-topbar" name="security-login-topbar" type="hidden" value="086547c089-1659586631">
-                            <button class="wpresidence_button" id="wp-login-but-topbar">
+                            <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-login-but-topbar">
                                 Login
                             </button>
                             <div class="login-links">
@@ -95,7 +95,7 @@
                                 </a>
                             </label>
                             <input id="security-register-topbar" name="security-register-topbar" type="hidden" value="e5bb0e5a99-1659586631">
-                                <button class="wpresidence_button" id="wp-submit-register_topbar">
+                                <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-submit-register_topbar">
                                     Register
                                 </button>
                             </input>
@@ -116,7 +116,7 @@
                 <input id="security-forgot-topbar" name="security-forgot-topbar" type="hidden" value="6ee03f0713">
                     <input name="_wp_http_referer" type="hidden" value="/">
                         <input id="postid" type="hidden" value="26087">
-                            <button class="wpresidence_button" id="wp-forgot-but-topbar" name="forgot">
+                            <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-forgot-but-topbar" name="forgot">
                                 Reset Password
                             </button>
                         </input>
