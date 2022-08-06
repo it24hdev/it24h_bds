@@ -51,57 +51,74 @@
                 </input>
             </div>
             <div class="login_form" id="register-div-topbar">
-                <div id="register-div-title-topbar">
-                   @lang('lang.Createanaccount') 
-                </div>
-                <div class="loginalert" id="register_message_area_topbar">
-                </div>
-                <input autofocus="" class="form-control" id="user_login_register_topbar" name="user_login_register" placeholder="@lang('lang.Username')" type="text">
-                    <input class="form-control" id="user_email_register_topbar" name="user_email_register" placeholder="Email" type="email">
-                        <div class="password_holder">
-                            <input class="form-control" id="user_password_topbar" name="user_password" placeholder="@lang('lang.Password')" type="password">
-                                <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_topbar">
-                                </i>
-                            </input>
-                        </div>
-                        <div class="password_holder">
-                            <input class="form-control" id="user_password_topbar_retype" name="user_password_retype" placeholder="@lang('lang.RetypePassword')" type="password">
-                                <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_topbar_retype">
-                                </i>
-                            </input>
-                        </div>
-                        <select class="form-control" id="new_user_type_topbar" name="new_user_type_topbar">
-                            <option value="0">
-                                @lang('lang.SelectUserType')
-                            </option>
-                            <option value="1">
-                                User
-                            </option>
-                            <option value="2">
-                                Agent
-                            </option>
-                            <option value="3">
-                                Agency
-                            </option>
-                            <option value="4">
-                                Developer
-                            </option>
-                        </select>
-                        <input id="user_terms_register_topbar" name="terms" type="checkbox">
-                            <label for="user_terms_register_topbar" id="user_terms_register_topbar_label">
-                                @lang('lang.Iagreewith')
-                                <a href="https://wpresidence.net/gdpr-terms-and-conditions/" id="user_terms_register_topbar_link" target="_blank">
-                                     @lang('lang.termsconditions')
-                                </a>
-                            </label>
-                            <input id="security-register-topbar" name="security-register-topbar" type="hidden" value="e5bb0e5a99-1659586631">
-                                <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-submit-register_topbar">
-                                   @lang('lang.Register')
-                                </button>
-                            </input>
+                <div id="register-div-title-topbar"> @lang('lang.Createanaccount') </div>
+                <div class="loginalert" id="register_message_area_topbar"></div>
+                 <form action="{{route('user_register')}}" method="POST">
+                    @csrf
+                    <input autofocus="" class="form-control @error('name') is-invalid @enderror" id="user_login_register_topbar" name="name" autocomplete="name" placeholder="@lang('lang.Username')" type="text" required>
+                     @error('name')
+                            <span role="alert">
+                                <p class="text-danger fst-italic mt-2" style="font-size: 14px;">{{ $message }}</p>
+                            </span>
+                    @enderror
+                    <input class="form-control @error('new_email') is-invalid @enderror" id="user_email_register_topbar" name="email" placeholder="Email" type="email" autocomplete="email" required>
+                    @error('new_email')
+                            <span role="alert">
+                                <p class="text-danger fst-italic mt-2" style="font-size: 14px;">{{ $message }}</p>
+                            </span>
+                    @enderror
+                    <div class="password_holder">
+                        <input class="form-control @error('password') is-invalid @enderror" id="user_password_topbar" name="password" placeholder="@lang('lang.Password')" type="password" autocomplete="current-password" required>
+                                <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_topbar"></i>
                         </input>
+                        @error('password')
+                            <span role="alert">
+                                <p class="text-danger fst-italic mt-2" style="font-size: 14px;">{{ $message }}</p>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="password_holder">
+                        <input class="form-control @error('password_confirmation') is-invalid @enderror" id="user_password_topbar_retype" name="confirmed" placeholder="@lang('lang.RetypePassword')" type="password" autocomplete="current-password" required>
+                            <i class=" far fa-eye-slash show_hide_password toggle-password" toggle="#user_password_topbar_retype">
+                            </i>
+                        </input>
+                         @error('password_confirmation')
+                            <span role="alert">
+                                <p class="text-danger fst-italic mt-2" style="font-size: 14px;">{{ $message }}</p>
+                            </span>
+                        @enderror
+                    </div>
+                    <select class="form-control" id="new_user_type_topbar" name="new_user_type_topbar">
+                        <option value="0">
+                            @lang('lang.SelectUserType')
+                        </option>
+                        <option value="1">
+                            User
+                        </option>
+                        <option value="2">
+                            Agent
+                        </option>
+                        <option value="3">
+                            Agency
+                        </option>
+                        <option value="4">
+                            Developer
+                        </option>
+                    </select>
+                    <input id="user_terms_register_topbar" name="terms" type="checkbox">
+                        <label for="user_terms_register_topbar" id="user_terms_register_topbar_label">
+                            @lang('lang.Iagreewith')
+                            <a href="https://wpresidence.net/gdpr-terms-and-conditions/" id="user_terms_register_topbar_link" target="_blank">
+                                 @lang('lang.termsconditions')
+                            </a>
+                        </label>
                     </input>
-                </input>
+                    <input id="security-register-topbar" name="security-register-topbar" type="hidden" value="e5bb0e5a99-1659586631">
+                    <button type="submit" class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-submit-register_topbar">
+                       @lang('lang.Register')
+                    </button>
+                    </input>
+                </form>
             </div>
             <div class="login_form" id="forgot-pass-div">
                 <div id="forgot-div-title-topbar">
