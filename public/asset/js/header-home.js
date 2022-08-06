@@ -2,8 +2,8 @@ $(document).ready(function () {
 
 	$('#adv_categ').dropdown();
 	$('#advanced_city').dropdown();
-	$('#advanced_area').dropdown();
-	$('#rooms').dropdown();
+	$('#area').dropdown();
+	$('#advanced_district').dropdown();
 	$('#adv_categ2').dropdown();
 	$('#advanced_city2').dropdown();
 	$('#adv_categ3').dropdown();

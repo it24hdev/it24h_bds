@@ -87,6 +87,14 @@ a img {
 img {
     vertical-align: middle;
 }
+.right-top-widet .textwidget {
+    transition: color 0.4s linear;
+    -webkit-transition: color 0.4s linear;
+}
+
+.right-top-widet .textwidget:hover, .right-top-widet a:hover{
+    color: #0073e1 !important; 
+}
 
 .top_bar_wrapper.transparent_border_topbar,
 .transparent_border_topbar .top_bar .social_sidebar_internal a,
@@ -719,7 +727,7 @@ img {
     float: left;
     font-size: 14px;
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
 }
 
 #forgot-div-title-mobile, #register-div-mobile, #register-div-title-mobile, #forgot-pass-div, #forgot-div-title-topbar, #register-div-topbar, #register-div-title-topbar, #register-div, #register-div-title {
@@ -1334,6 +1342,7 @@ svg:not(:root) {
     padding-top: 15px;
     display: flex;
     justify-content: center;
+    min-width: 80px;
 }
 
 .classsort{
@@ -1972,7 +1981,7 @@ nav .angledown {
 }
 
 .mobilewrapper-user .login_sidebar {
-    width: 254px;
+    width: 260px;
     display: inline-block;
     margin-left: 6px;
 }
@@ -2040,6 +2049,20 @@ h3 {
     background-color: #ffffff;
     color: #0073e1;
 }
+
+.languagemobile {
+    padding: 10px 0px 20px 0px;
+    clear: both;
+    width: 80%;
+    height: 55px;
+    margin: 0px 30px;
+    border-top: 1px solid #ffffff;
+}
+
+.langm {
+    margin-right: 10px;
+}
+
 @media only screen and (max-width: 550px){
     .select_real_estate .column-gap-default .inner-column{
         width: 23%;
