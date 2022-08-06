@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Config;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
 
@@ -16,5 +18,4 @@ Route::get('/danh-sach-bai-dang', [HomeController::class, 'property_list']);
 
 Route::post('/user-register', [UserController::class, 'register'])->name('user_register');
 
-
-
+Route::get('/dang-tin', [HomeController::class, 'create_property']);
