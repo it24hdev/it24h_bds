@@ -21,6 +21,7 @@
             </ul>
         </div>
         <div class="content">
+            {{-- ==== CONTENT ===== --}}
             <div class="wp-list-top">
                 <div class="wp-head">
                     <h2 class="title">Bất động sản đang bán</h2>
@@ -30,6 +31,7 @@
                         <p>Hiện có 195,624 bất động sản.</p>
                     </div>
                     <div class="filter">
+                        <button class="btn filter-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="far fa-sliders-v"></i> Lọc kết quả</button>
                         <div class="dropdown">
                             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               Thông thường
@@ -40,7 +42,7 @@
                               <li><a class="dropdown-item" href="#">Giá tăng dần</a></li>
                               <li><a class="dropdown-item" href="#">Giá giảm dần</a></li>
                             </ul>
-                          </div>
+                        </div>
                     </div>
                 </div>
                 <ul class="post-list">
@@ -321,6 +323,8 @@
                     </nav>
                 </div>
             </div>
+
+            {{-- ===== SIDEBAR ===== --}}
             <div class="sidebar-right">
                 <div class="filter-price filter-sidebar">
                     <h4>Lọc theo khoảng giá</h4>
@@ -366,6 +370,60 @@
                         <li><a href="#"> Vũng Tàu</a></li>
                     </ul>
                 </div>
+            </div>
+
+        </div>
+    </div>
+
+    {{-- ==== Sidebar mobile ==== --}}
+    <div class="offcanvas offcanvas-end sidebar-mobile" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="filter-price filter-sidebar">
+                <h4>Lọc theo khoảng giá</h4>
+                <ul>
+                    <li><a href="#">Thỏa thuận</a></li>
+                    <li><a href="#"> < 500 triệu </a></li>
+                    <li><a href="#">500 - 800 triệu</a></li>
+                    <li><a href="#"> 800 triệu - 1 tỷ</a></li>
+                    <li><a href="#"> 1 tỷ - 2 tỷ</a></li>
+                    <li><a href="#"> 2 tỷ - 3 tỷ</a></li>
+                    <li><a href="#"> 3 tỷ - 4 tỷ</a></li>
+                    <li><a href="#"> > 4 tỷ</a></li>
+                </ul>
+            </div>
+            <div class="filter-size filter-sidebar">
+                <h4>Lọc theo diện tích</h4>
+                <ul>
+                    <li><a href="#"> ≤ 30 m²</a></li>
+                    <li><a href="#"> 30 - 50 m² </a></li>
+                    <li><a href="#"> 50 - 80 m²</a></li>
+                    <li><a href="#"> 80 - 100 m²</a></li>
+                    <li><a href="#"> 100 - 150 m²</a></li>
+                    <li><a href="#"> 150 - 200 m²</a></li>
+                    <li><a href="#"> 200 - 300 m²</a></li>
+                    <li><a href="#"> 300 - 400 m²</a></li>
+                    <li><a href="#"> 400 - 500 m²</a></li>
+                    <li><a href="#"> > 500 m²</a></li>
+                </ul>
+            </div>
+            <div class="filter-price filter-sidebar">
+                <h4>Lọc theo khu vực</h4>
+                <ul>
+                    <li><a href="#">Hồ Chí Minh</a></li>
+                    <li><a href="#"> Hà Nội </a></li>
+                    <li><a href="#"> Hải Phòng</a></li>
+                    <li><a href="#"> Đà Nẵng</a></li>
+                    <li><a href="#"> Quảng Ninh</a></li>
+                    <li><a href="#"> Phú Quốc</a></li>
+                    <li><a href="#"> Bình Dương</a></li>
+                    <li><a href="#"> Thái Nguyên</a></li>
+                    <li><a href="#"> Bắc Ninh</a></li>
+                    <li><a href="#"> Thanh Hóa</a></li>
+                    <li><a href="#"> Vũng Tàu</a></li>
+                </ul>
             </div>
         </div>
     </div>

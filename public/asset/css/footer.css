@@ -6,7 +6,7 @@
     background-color: #002B54;
     opacity: 0.96;
     color: #fff;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 #footer .body-footer{
     display: flex;
@@ -19,7 +19,7 @@
     width: 100%;
     padding: 0px 10px 30px 10px;
     font-size: 15px;
-    color: #bbb;
+    color: #fff;
 }
 .body-footer .logo-footer .image-logo{
     margin-bottom: 40px;

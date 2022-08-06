@@ -12,6 +12,7 @@
 }
 .bread-crumb ul li{
     padding: 5px;
+    font-size: 14px;
 }
 .bread-crumb ul li a{
     font-size: 14px;
@@ -42,6 +43,13 @@
 #wp-content .wp-list-top .count-filter .count{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
+}
+#wp-content .wp-list-top .count-filter .filter{
+    display: flex;
+}
+#wp-content .wp-list-top .count-filter .filter .filter-mobile{
+    margin-right: 10px;
 }
 #wp-content .wp-list-top .count-filter .filter .dropdown button{
     border: 1px solid #7A7A7A;
@@ -54,28 +62,28 @@
     display: none;
     padding: 0 10px 20px 20px;
 }
-#wp-content .sidebar-right .filter-sidebar{
+.filter-sidebar{
     margin-bottom: 30px;
     background-color: #fff;
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 10px 31px 0 rgb(7 152 255 / 9%);
 }
-#wp-content .sidebar-right .filter-sidebar h4{
+.filter-sidebar h4{
     font-size: 17px;
     color: #434953;
     margin-bottom: 20px;
 }
-#wp-content .sidebar-right .filter-sidebar ul{
+.filter-sidebar ul{
     margin: 0px;
 }
-#wp-content .sidebar-right .filter-sidebar ul li a{
+.filter-sidebar ul li a{
     display: block;
     padding: 8px 0;
     font-size: 16px;
     color: #515863;
 }
-#wp-content .sidebar-right .filter-sidebar ul li a:hover{
+.filter-sidebar ul li a:hover{
     color: #0073e1;
 }
 #wp-content .wp-list-top .wp-head h2.title{
@@ -333,5 +341,8 @@ li .wp-post .wp-detail .wp-author .action .box-action:hover{
     #wp-content .sidebar-right{
         width: 25%;
         display: block;
+    }
+    #wp-content .wp-list-top .count-filter .filter .filter-mobile, .sidebar-mobile{
+        display: none;
     }
 }

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Config;
 use App\Http\Controllers\HomeController;
 
 Route::get('setLocale/{locale}', function ($locale) {
@@ -12,3 +14,4 @@ Route::get('setLocale/{locale}', function ($locale) {
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/danh-sach-bai-dang', [HomeController::class, 'property_list']);
+Route::get('/dang-tin', [HomeController::class, 'create_property']);

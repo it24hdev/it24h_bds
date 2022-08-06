@@ -14,4 +14,7 @@ class HomeController extends Controller
     public function property_list(){
         return \view('frontend.property-list');
     }
+    public function create_property(){
+        return \view('frontend.create-property');
+    }
 }
