@@ -989,7 +989,7 @@ svg:not(:root) {
 
 .hover_type_3 #access .menu > li:hover>a {
     background: #0073e1!important;
-    color: #fff;
+    color: #fff !important;
     display: inline;
     padding: 7px 15px;
     border-radius: 2px;
@@ -1208,7 +1208,7 @@ svg:not(:root) {
 }
 
 #access .sub-menu li:hover>a, #access .sub-menu li:hover>a:active, #access .sub-menu li:hover>a:focus {
-    color: #fff;
+    color: #fff !important;
 }
 
 .header5_user_wrap .header_phone svg, .header5_user_wrap .header_phone a, .header_transparent .header_phone a, .header_transparent .header_phone svg, .header_transparent .submit_action svg {
@@ -2064,6 +2064,29 @@ h3 {
     margin-right: 10px;
 }
 
+
+/*======================header page============================*/
+
+.transparent_topbar_header_page{
+    background-color: #111111;
+}
+
+.header_wrapper.header_page{
+    background: #fff !important;
+    opacity: 1 !important;
+}
+
+
+.headerpage a, .header_phone_page a{
+    color: #222222!important;
+}
+.header_phone_page svg, .submit_action svg{
+    fill: #0073e1 !important;
+}
+.headerpage_minheight{
+    min-height: 130px;
+}
+
 @media only screen and (max-width: 550px){
     .select_real_estate .column-gap-default .inner-column{
         width: 23%;
@@ -2111,7 +2134,9 @@ h3 {
     .header_bar{
         position: absolute;
     }
-   
+   .headerpage_minheight{
+    min-height: 80px;
+   }
 }
 
 @media (max-width: 1170px){

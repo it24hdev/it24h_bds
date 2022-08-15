@@ -9,6 +9,65 @@ $(document).ready(function () {
 	$('#adv_categ3').dropdown();
 	$('#adv_status').dropdown();
 
+
+
+	$("#categlist li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#adv_categ").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_cate").val(selText) ;
+	});
+
+	$("#adv-search-city li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#advanced_city").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_city").val(selText) ;
+	});
+
+	$("#adv-search-advanced_district li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#advanced_district").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_district").val(selText) ;
+	});
+
+	$("#search-area li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#area").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_area").val(selText) ;
+	});
+
+	$("#categlist2 li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#adv_categ2").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_cate2").val(selText) ;
+	});
+
+	$("#adv-search-city2 li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#advanced_city2").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_city2").val(selText) ;
+	});
+
+	$("#categlist3 li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#adv_categ3").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#filter_categ3").val(selText) ;
+	});
+
+	$("#statuslist li").click(function(){
+  	var selText = $(this).text();
+  	selText = selText.trim();
+  	$("#adv_status").html(selText+' <span class="caret caret_filter"></span>');
+  	$("#property_status").val(selText) ;
+	});
+
+
 	// nut menu an hien silebar dang mobile
     $("#iconmenumobile").on("click",function(){
     document.getElementById("mobilenav").style.visibility = "visible";
