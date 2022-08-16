@@ -31,5 +31,6 @@
     <script src="/asset/lib/OwlCarousel/dist/owl.carousel.min.js"></script>
     @yield('js')
     <script src="{{ asset('asset/js/header-home.js') }}"></script>
+    <script src="{{ asset('asset/js/property.js') }}"></script>
 </body>
 </html>

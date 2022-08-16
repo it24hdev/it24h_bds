@@ -67,6 +67,7 @@ $(document).ready(function () {
   	$("#property_status").val(selText) ;
 	});
 
+	
 
 	// nut menu an hien silebar dang mobile
     $("#iconmenumobile").on("click",function(){

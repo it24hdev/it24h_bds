@@ -2399,7 +2399,7 @@
                             Change Measurement
                         </h3>
                         <div class="dropdown form-control">
-                            <div class="sidebar_filter_menu" data-bs-toggle="dropdown" id="sidebar_measure_unit_list">
+                            <div class=" sidebar_filter_menu" data-bs-toggle="dropdown" id="sidebar_measure_unit_list">
                                 square feet - ft
                                 <sup>
                                     2
@@ -2407,15 +2407,15 @@
                                 <span class="caret caret_sidebar">
                                 </span>
                             </div>
-                            <input name="sidebar_measure_unit_list[]" type="hidden" value="">
-                                <ul aria-labelledby="sidebar_measure_unit_list" class="dropdown-menu filter_menu" id="" role="menu">
-                                    <li class="dropdown-item" data-value="ft" role="presentation">
+                            <input id="filter_unit_list" name="sidebar_measure_unit_list" type="hidden" value="">
+                                <ul aria-labelledby="sidebar_measure_unit_list" class="dropdown-menu filter_menu" id="unit_list" role="menu">
+                                    <li class="dropdown-item" data-value="ft">
                                         square feet - ft
                                         <sup>
                                             2
                                         </sup>
                                     </li>
-                                    <li class="dropdown-item" data-value="m" role="presentation">
+                                    <li class="dropdown-item" data-value="m">
                                         square meters - m
                                         <sup>
                                             2
@@ -2431,8 +2431,8 @@
                             Advanced Search
                         </h3>
                         <form action="https://wpresidence.net/advanced-search/" method="get" role="search">
-                            <input id="wpestate_regular_search_nonce" name="wpestate_regular_search_nonce" type="hidden" value="df09151047">
-                                <input name="_wp_http_referer" type="hidden" value="/properties/luxury-house-in-greenville/">
+                            <input type="hidden" id="wpestate_regular_search_nonce" name="wpestate_regular_search_nonce" value="bf1fdd1ae3">
+                            <input type="hidden" name="_wp_http_referer" value="/properties/luxury-home-in-manhattan/">
                                     <div class="adv_search_tab wpestate_search_tab_align_center" id="tab_prpg_adv6" role="tabpanel">
                                         <div class="nav nav-tabs" role="tablist">
                                             <div class="adv_search_tab_item active rentals" data-tax="property_action_category" data-term="rentals" data-termid="2">
@@ -2453,254 +2453,222 @@
                                         </div>
                                         <div class="tab-content">
                                             <div class="tab-pane active" id="rentalssidebar" role="tabpanel">
-                                                <input name="filter_search_action[]" type="hidden" value="rentals">
-                                                    <input name="adv6_search_tab" type="hidden" value="rentals">
-                                                        <input class="term_id_class" name="term_id" type="hidden" value="2">
-                                                            <input class="term_counter" name="term_counter" type="hidden" value="0">
-                                                                <div class="col-md-3 categories">
-                                                                    <div class="dropdown form-control">
-                                                                        <div aria-expanded="false" cacaall="" categories="" class=" sidebar_filter_menu " data-toggle="dropdown" data-value="all" id="sidebar-adv_categ" xxmaca="">
-                                                                            Categories
-                                                                            <span class="caret caret_sidebar ">
-                                                                            </span>
-                                                                        </div>
-                                                                        <input name="filter_search_type[]" type="hidden" value="">
-                                                                            <ul aria-labelledby="sidebar-adv_categ" class="dropdown-menu filter_menu" id="sidebar-categlist" role="menu">
-                                                                                <li data-value="all" role="presentation">
-                                                                                    Categories
-                                                                                </li>
-                                                                                <li data-value="apartments" role="presentation">
-                                                                                    Apartments
-                                                                                </li>
-                                                                                <li data-value="condos" role="presentation">
-                                                                                    Condos
-                                                                                </li>
-                                                                                <li data-value="houses" role="presentation">
-                                                                                    Houses
-                                                                                </li>
-                                                                                <li data-value="industrial" role="presentation">
-                                                                                    Industrial
-                                                                                </li>
-                                                                                <li data-value="land" role="presentation">
-                                                                                    Land
-                                                                                </li>
-                                                                                <li data-value="offices" role="presentation">
-                                                                                    Offices
-                                                                                </li>
-                                                                                <li data-value="retail" role="presentation">
-                                                                                    Retail
-                                                                                </li>
-                                                                                <li data-value="villas" role="presentation">
-                                                                                    Villas
-                                                                                </li>
-                                                                            </ul>
-                                                                        </input>
-                                                                    </div>
+                                                <input name="filter_search_action" type="hidden" value="rentals">
+                                                <div class="col-md-3 categories">
+                                                    <div class="dropdown form-control">
+                                                        <div aria-expanded="false"  class=" sidebar_filter_menu " data-bs-toggle="dropdown" data-value="all" id="sidebar-adv_categ4" xxmaca="">
+                                                            Categories
+                                                            <span class="caret caret_sidebar "></span>
+                                                        </div>
+                                                        <input id="filter_cate4" name="filter_cate4" type="hidden" value="">
+                                                        <ul aria-labelledby="sidebar-adv_categ4" class="dropdown-menu filter_menu" id="sidebar-categlist4" role="menu" >
+                                                            <li data-value="all" role="presentation">
+                                                                Categories
+                                                            </li>
+                                                            <li data-value="apartments" role="presentation">
+                                                                Apartments
+                                                            </li>
+                                                            <li data-value="condos" role="presentation">
+                                                                Condos
+                                                            </li>
+                                                            <li data-value="houses" role="presentation">
+                                                                Houses
+                                                            </li>
+                                                            <li data-value="industrial" role="presentation">
+                                                                Industrial
+                                                            </li>
+                                                            <li data-value="land" role="presentation">
+                                                                Land
+                                                            </li>
+                                                            <li data-value="offices" role="presentation">
+                                                                Offices
+                                                            </li>
+                                                            <li data-value="retail" role="presentation">
+                                                                Retail
+                                                            </li>
+                                                            <li data-value="villas" role="presentation">
+                                                                Villas
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 cities">
+                                                    <div class="dropdown form-control">
+                                                        <div aria-expanded="false" cacaall="" cities="" class=" sidebar_filter_menu " data-bs-toggle="dropdown" data-value="all" id="sidebar-advanced_city5">
+                                                            Cities
+                                                            <span class="caret caret_sidebar ">
+                                                            </span>
+                                                        </div>
+                                                        <input id="advanced_city5" name="advanced_city5" type="hidden" value="">
+                                                            <ul aria-labelledby="sidebar-advanced_city5" class="dropdown-menu filter_menu" id="sidebar-adv-search-city5" role="menu">
+                                                                <li data-value="all" data-value2="all" role="presentation">
+                                                                    Cities
+                                                                </li>
+                                                                <li data-parentcounty="new-jersey-state" data-value="jersey-city" data-value2="jersey-city" role="presentation">
+                                                                    Jersey City
+                                                                </li>
+                                                                <li data-parentcounty="new-york-state" data-value="new-york" data-value2="new-york" role="presentation">
+                                                                    New York
+                                                                </li>
+                                                            </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 areas">
+                                                    <div class="dropdown form-control">
+                                                        <div  aria-expanded="false" cacaall="" class=" sidebar_filter_menu " data-bs-toggle="dropdown" data-value="all" id="sidebar-advanced_area6">
+                                                            Areas
+                                                            <span class="caret caret_sidebar ">
+                                                            </span>
+                                                        </div>
+                                                        <input id="advanced_area6" name="advanced_area6" type="hidden" value="">
+                                                            <ul  aria-labelledby="sidebar-advanced_area6" class="dropdown-menu filter_menu" id="sidebar-adv-search-area6" role="menu">
+                                                                <li data-value="all" role="presentation">
+                                                                    Areas
+                                                                </li>
+                                                                <li data-parentcity="jersey-city" data-value="bayonne" role="presentation">
+                                                                    Bayonne
+                                                                </li>
+                                                                <li data-parentcity="jersey-city" data-value="greenville" role="presentation">
+                                                                    Greenville
+                                                                </li>
+                                                                <li data-parentcity="new-york" data-value="manhattan" role="presentation">
+                                                                    Manhattan
+                                                                </li>
+                                                                <li data-parentcity="new-york" data-value="queens" role="presentation">
+                                                                    Queens
+                                                                </li>
+                                                                <li data-parentcity="jersey-city" data-value="the-heights" role="presentation">
+                                                                    The Heights
+                                                                </li>
+                                                                <li data-parentcity="new-york" data-value="upper-east-side" role="presentation">
+                                                                    Upper East Side
+                                                                </li>
+                                                                <li data-parentcity="new-york" data-value="west-side" role="presentation">
+                                                                    West Side
+                                                                </li>
+                                                            </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 property_bedrooms">
+                                                    <div class="dropdown form-control">
+                                                        <div aria-expanded="false" class="sidebar_filter_menu" data-bs-toggle="dropdown" data-value="all" id="sidebar-bedrooms7" maca="" xx="">
+                                                            Bedrooms
+                                                            <span class="caret caret_sidebar ">
+                                                            </span>
+                                                        </div>
+                                                        <input id="bedrooms7"  name="bedrooms7" type="hidden" value="">
+                                                            <ul aria-labelledby="sidebar-bedrooms7" class="dropdown-menu filter_menu" id="sidebar-search-bedrooms7" role="menu">
+                                                                <li data-value="all" role="presentation">
+                                                                    Bedrooms
+                                                                </li>
+                                                                <li data-value="1" value="1">1</li>
+                                                                <li data-value="2" value="2">2</li>
+                                                                <li data-value="3" value="3">3</li>
+                                                                <li data-value="4" value="4">4</li>
+                                                                <li data-value="5" value="5">5</li>
+                                                                <li data-value="6" value="6">6</li>
+                                                                <li data-value="7" value="7">7</li>
+                                                                <li data-value="8" value="8">8</li>
+                                                                <li data-value="9" value="9">9</li>
+                                                                <li data-value="10" value="10">10</li>
+                                                            </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 property_size">
+                                                    <input class="advanced_select form-control" id="sidebar-min-size-in-sqft" name="min-size-in-sqft" placeholder="Min size (in sqft)" type="text" value=""/>
+                                                </div>
+                                                <div class="col-md-6 property_price">
+                                                    <div class="field-group-message group-message" style="width: 100%!important; margin-bottom: 30px;">
+                                                        <p style="margin-bottom: 20px;">
+                                                            <label class="elementor-field-label">
+                                                              Mức giá:
+                                                            </label>
+                                                            <span class="wpresidence_slider_price">
+                                                                $
+                                                                <span id="min2">
+                                                                    10
+                                                                </span>
+                                                                to $
+                                                                <span id="max2">
+                                                                    100
+                                                                </span>
+                                                            </span>
+                                                        </p>
+                                                        <div class="range-slide">
+                                                            <div class="slide">
+                                                                <div class="line" id="line2" style="left: 0%; right: 0%;">
                                                                 </div>
-                                                                <div class="col-md-3 cities">
-                                                                    <div class="dropdown form-control">
-                                                                        <div aria-expanded="false" cacaall="" cities="" class=" sidebar_filter_menu " data-toggle="dropdown" data-value="all" id="sidebar-advanced_city" xxmaca="">
-                                                                            Cities
-                                                                            <span class="caret caret_sidebar ">
-                                                                            </span>
-                                                                        </div>
-                                                                        <input name="advanced_city" type="hidden" value="">
-                                                                            <ul aria-labelledby="sidebar-advanced_city" class="dropdown-menu filter_menu" id="sidebar-adv-search-city" role="menu">
-                                                                                <li data-value="all" data-value2="all" role="presentation">
-                                                                                    Cities
-                                                                                </li>
-                                                                                <li data-parentcounty="new-jersey-state" data-value="jersey-city" data-value2="jersey-city" role="presentation">
-                                                                                    Jersey City
-                                                                                </li>
-                                                                                <li data-parentcounty="new-york-state" data-value="new-york" data-value2="new-york" role="presentation">
-                                                                                    New York
-                                                                                </li>
-                                                                            </ul>
-                                                                        </input>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-3 areas">
-                                                                    <div class="dropdown form-control">
-                                                                        <div areas="" aria-expanded="false" cacaall="" class=" sidebar_filter_menu " data-toggle="dropdown" data-value="all" id="sidebar-advanced_area" xxmaca="">
-                                                                            Areas
-                                                                            <span class="caret caret_sidebar ">
-                                                                            </span>
-                                                                        </div>
-                                                                        <input name="advanced_area" type="hidden" value="">
-                                                                            <ul aria-labelledby="sidebar-advanced_area" class="dropdown-menu filter_menu" id="sidebar-adv-search-area" role="menu">
-                                                                                <li data-value="all" role="presentation">
-                                                                                    Areas
-                                                                                </li>
-                                                                                <li data-parentcity="jersey-city" data-value="bayonne" role="presentation">
-                                                                                    Bayonne
-                                                                                </li>
-                                                                                <li data-parentcity="jersey-city" data-value="greenville" role="presentation">
-                                                                                    Greenville
-                                                                                </li>
-                                                                                <li data-parentcity="new-york" data-value="manhattan" role="presentation">
-                                                                                    Manhattan
-                                                                                </li>
-                                                                                <li data-parentcity="new-york" data-value="queens" role="presentation">
-                                                                                    Queens
-                                                                                </li>
-                                                                                <li data-parentcity="jersey-city" data-value="the-heights" role="presentation">
-                                                                                    The Heights
-                                                                                </li>
-                                                                                <li data-parentcity="new-york" data-value="upper-east-side" role="presentation">
-                                                                                    Upper East Side
-                                                                                </li>
-                                                                                <li data-parentcity="new-york" data-value="west-side" role="presentation">
-                                                                                    West Side
-                                                                                </li>
-                                                                            </ul>
-                                                                        </input>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-3 property_bedrooms">
-                                                                    <div class="dropdown form-control">
-                                                                        <div aria-expanded="false" bedrooms="" cacaall="" class=" sidebar_filter_menu " data-toggle="dropdown" data-value="all" id="sidebar-bedrooms" maca="" xx="">
-                                                                            Bedrooms
-                                                                            <span class="caret caret_sidebar ">
-                                                                            </span>
-                                                                        </div>
-                                                                        <input doithere="" name="bedrooms" type="hidden" value="">
-                                                                            <ul aria-labelledby="sidebar-bedrooms" class="dropdown-menu filter_menu" id="sidebar-search-bedrooms" role="menu">
-                                                                                <li data-value="all" role="presentation">
-                                                                                    Bedrooms
-                                                                                </li>
-                                                                                <li data-value="1" value="1">
-                                                                                    1
-                                                                                </li>
-                                                                                <li data-value="2" value="2">
-                                                                                    2
-                                                                                </li>
-                                                                                <li data-value="3" value="3">
-                                                                                    3
-                                                                                </li>
-                                                                                <li data-value="4" value="4">
-                                                                                    4
-                                                                                </li>
-                                                                                <li data-value="5" value="5">
-                                                                                    5
-                                                                                </li>
-                                                                                <li data-value="6" value="6">
-                                                                                    6
-                                                                                </li>
-                                                                                <li data-value="7" value="7">
-                                                                                    7
-                                                                                </li>
-                                                                                <li data-value="8" value="8">
-                                                                                    8
-                                                                                </li>
-                                                                                <li data-value="9" value="9">
-                                                                                    9
-                                                                                </li>
-                                                                                <li data-value="10" value="10">
-                                                                                    10
-                                                                                </li>
-                                                                            </ul>
-                                                                        </input>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-3 property_size">
-                                                                    <input class="advanced_select form-control" id="sidebar-min-size-in-sqft" name="min-size-in-sqft" placeholder="Min size (in sqft)" type="text" value=""/>
-                                                                </div>
-                                                                <div class="col-md-6 property_price">
-                                                                    <div class="adv_search_slider">
-                                                                        <p>
-                                                                            <label for="amount">
-                                                                                Price range:
-                                                                            </label>
-                                                                            <span class="wpresidence_slider_price" id="amount_2_sidebar">
-                                                                                $ 0 to $ 1,000
-                                                                            </span>
-                                                                        </p>
-                                                                        <div class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content" id="slider_price_2_sidebar">
-                                                                            <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%; width: 100%;">
-                                                                            </div>
-                                                                            <span class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;" tabindex="0">
-                                                                            </span>
-                                                                            <span class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;" tabindex="0">
-                                                                            </span>
-                                                                        </div>
-                                                                        <input class="adv6_price_low price_active" id="price_low_2" name="price_low_2" type="hidden" value="0">
-                                                                            <input class="adv6_price_max price_active" id="price_max_2" name="price_max_2" type="hidden" value="1000">
-                                                                            </input>
-                                                                        </input>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-md-3 submit_container_half ">
-                                                                    <input class="wpresidence_button advanced_submit_4" name="submit" type="submit" value="Search Properties"/>
-                                                                </div>
-                                                                <div class="adv_extended_options_text" id="adv_extended_options_text_sidebar">
-                                                                    More Search Options
-                                                                </div>
-                                                                <div class="extended_search_check_wrapper">
-                                                                    <span class="adv_extended_close_button" id="adv_extended_close_sidebar">
-                                                                        <i class="fas fa-times">
-                                                                        </i>
-                                                                    </span>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="back-yardsidebarrentals" name="back-yard" name-title="Back yard" type="checkbox" value="1">
-                                                                            <label for="back-yardsidebarrentals">
-                                                                                Back yard
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="central-airsidebarrentals" name="central-air" name-title="Central Air" type="checkbox" value="1">
-                                                                            <label for="central-airsidebarrentals">
-                                                                                Central Air
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="chair-accessiblesidebarrentals" name="chair-accessible" name-title="Chair Accessible" type="checkbox" value="1">
-                                                                            <label for="chair-accessiblesidebarrentals">
-                                                                                Chair Accessible
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="elevatorsidebarrentals" name="elevator" name-title="Elevator" type="checkbox" value="1">
-                                                                            <label for="elevatorsidebarrentals">
-                                                                                Elevator
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="fireplacesidebarrentals" name="fireplace" name-title="Fireplace" type="checkbox" value="1">
-                                                                            <label for="fireplacesidebarrentals">
-                                                                                Fireplace
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="front-yardsidebarrentals" name="front-yard" name-title="Front yard" type="checkbox" value="1">
-                                                                            <label for="front-yardsidebarrentals">
-                                                                                Front yard
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="garage-attachedsidebarrentals" name="garage-attached" name-title="Garage Attached" type="checkbox" value="1">
-                                                                            <label for="garage-attachedsidebarrentals">
-                                                                                Garage Attached
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                    <div class="extended_search_checker">
-                                                                        <input id="laundrysidebarrentals" name="laundry" name-title="Laundry" type="checkbox" value="1">
-                                                                            <label for="laundrysidebarrentals">
-                                                                                Laundry
-                                                                            </label>
-                                                                        </input>
-                                                                    </div>
-                                                                </div>
-                                                            </input>
+                                                                <span class="thumb" id="thumbMin2" style="left: 0%;">
+                                                                </span>
+                                                                <span class="thumb" id="thumbMax2" style="left: 100%;">
+                                                                </span>
+                                                            </div>
+                                                            <input id="rangeMin2" max="100" min="10" step="5" type="range" value="0" style="padding:0">
+                                                            <input id="rangeMax2" max="100" min="10" step="5" type="range" value="100" style="padding:0">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 submit_container_half ">
+                                                    <input class="wpresidence_button advanced_submit_4" name="submit" type="submit" value="Search Properties"/>
+                                                </div>
+                                                <div class="adv_extended_options_text" id="adv_extended_options_text_sidebar">
+                                                    More Search Options
+                                                </div>
+                                                <div class="extended_search_check_wrapper">
+                                                    <span class="adv_extended_close_button" id="adv_extended_close_sidebar">
+                                                        <i class="fas fa-times">
+                                                        </i>
+                                                    </span>
+                                                    <div class="extended_search_checker">
+                                                        <input id="back-yardsidebarrentals" name="back-yard" name-title="Back yard" type="checkbox" value="1">
+                                                            <label for="back-yardsidebarrentals">
+                                                                Back yard
+                                                            </label>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="central-airsidebarrentals" name="central-air" name-title="Central Air" type="checkbox" value="1">
+                                                            <label for="central-airsidebarrentals">
+                                                                Central Air
+                                                            </label>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="chair-accessiblesidebarrentals" name="chair-accessible" name-title="Chair Accessible" type="checkbox" value="1">
+                                                            <label for="chair-accessiblesidebarrentals">
+                                                                Chair Accessible
+                                                            </label>
                                                         </input>
-                                                    </input>
-                                                </input>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="elevatorsidebarrentals" name="elevator" name-title="Elevator" type="checkbox" value="1">
+                                                            <label for="elevatorsidebarrentals">
+                                                                Elevator
+                                                            </label>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="fireplacesidebarrentals" name="fireplace" name-title="Fireplace" type="checkbox" value="1">
+                                                            <label for="fireplacesidebarrentals">
+                                                                Fireplace
+                                                            </label>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="front-yardsidebarrentals" name="front-yard" name-title="Front yard" type="checkbox" value="1">
+                                                            <label for="front-yardsidebarrentals">
+                                                                Front yard
+                                                            </label>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="garage-attachedsidebarrentals" name="garage-attached" name-title="Garage Attached" type="checkbox" value="1">
+                                                            <label for="garage-attachedsidebarrentals">
+                                                                Garage Attached
+                                                            </label>
+                                                    </div>
+                                                    <div class="extended_search_checker">
+                                                        <input id="laundrysidebarrentals" name="laundry" name-title="Laundry" type="checkbox" value="1">
+                                                            <label for="laundrysidebarrentals">
+                                                                Laundry
+                                                            </label>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="tab-pane " id="salessidebar" role="tabpanel">
                                                 <form action="https://wpresidence.net/advanced-search/" method="get" role="search" serch5="">
@@ -3264,73 +3232,73 @@
                         <h3 class="widget-title-sidebar">
                             Featured Properties
                         </h3>
-                <div class="latest_listings list_type">
-                    <div class="widget_latest_internal" data-link="https://wpresidence.net/properties/luxury-house-in-greenville/">
-                        <div class="widget_latest_listing_image">
-                            <a href="#">
-                                <img alt="slider-thumb"  height="70" src="https://d21sbe0q8pamcf.cloudfront.net/wp-content/uploads/2017/11/house_nice_2-105x70.jpg" width="105"/>
-                            </a>
-                        </div>
-                        <div class="listing_name ">
-                            <span class="widget_latest_title">
+                    <div class="latest_listings list_type">
+                        <div class="widget_latest_internal" data-link="https://wpresidence.net/properties/luxury-house-in-greenville/">
+                            <div class="widget_latest_listing_image">
                                 <a href="#">
-                                    Luxury House in Greenville
+                                    <img alt="slider-thumb"  height="70" src="https://d21sbe0q8pamcf.cloudfront.net/wp-content/uploads/2017/11/house_nice_2-105x70.jpg" width="105"/>
                                 </a>
-                            </span>
-                            <span class="widget_latest_price">
-                                <span class="price_label price_label_before">
-                                    from
+                            </div>
+                            <div class="listing_name ">
+                                <span class="widget_latest_title">
+                                    <a href="#">
+                                        Luxury House in Greenville
+                                    </a>
                                 </span>
-                                $ 86,000
-                                <span class="price_label">
+                                <span class="widget_latest_price">
+                                    <span class="price_label price_label_before">
+                                        from
+                                    </span>
+                                    $ 86,000
+                                    <span class="price_label">
+                                    </span>
                                 </span>
-                            </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="widget_latest_internal" data-link="https://wpresidence.net/properties/modern-condo-for-sale/">
-                        <div class="widget_latest_listing_image">
-                            <a href="#">
-                                <img alt="slider-thumb"  height="70" src="https://d21sbe0q8pamcf.cloudfront.net/wp-content/uploads/2017/09/featured_property_large-105x70.jpg" width="105"/>
-                            </a>
-                        </div>
-                        <div class="listing_name ">
-                            <span class="widget_latest_title">
-                                <a href="https://wpresidence.net/properties/modern-condo-for-sale/">
-                                    Modern Condo for Sale
-                                </a>
-                            </span>
-                            <span class="widget_latest_price">
-                                $ 150,000
-                                <span class="price_label">
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="widget_latest_internal" data-link="https://wpresidence.net/properties/apartment-building/">
-                        <div class="widget_latest_listing_image">
-                            <a href="#">
-                                <img alt="slider-thumb" height="70" src="https://d21sbe0q8pamcf.cloudfront.net/wp-content/uploads/2017/01/interior36-105x70.jpg" width="105"/>
-                            </a>
-                        </div>
-                        <div class="listing_name ">
-                            <span class="widget_latest_title">
+                        <div class="widget_latest_internal" data-link="https://wpresidence.net/properties/modern-condo-for-sale/">
+                            <div class="widget_latest_listing_image">
                                 <a href="#">
-                                    Apartment with Subunits
+                                    <img alt="slider-thumb"  height="70" src="https://d21sbe0q8pamcf.cloudfront.net/wp-content/uploads/2017/09/featured_property_large-105x70.jpg" width="105"/>
                                 </a>
-                            </span>
-                            <span class="widget_latest_price">
-                                <span class="price_label price_label_before">
-                                    from
+                            </div>
+                            <div class="listing_name ">
+                                <span class="widget_latest_title">
+                                    <a href="https://wpresidence.net/properties/modern-condo-for-sale/">
+                                        Modern Condo for Sale
+                                    </a>
                                 </span>
-                                $ 999
-                                <span class="price_label">
+                                <span class="widget_latest_price">
+                                    $ 150,000
+                                    <span class="price_label">
+                                    </span>
                                 </span>
-                            </span>
+                            </div>
+                        </div>
+                        <div class="widget_latest_internal" data-link="https://wpresidence.net/properties/apartment-building/">
+                            <div class="widget_latest_listing_image">
+                                <a href="#">
+                                    <img alt="slider-thumb" height="70" src="https://d21sbe0q8pamcf.cloudfront.net/wp-content/uploads/2017/01/interior36-105x70.jpg" width="105"/>
+                                </a>
+                            </div>
+                            <div class="listing_name ">
+                                <span class="widget_latest_title">
+                                    <a href="#">
+                                        Apartment with Subunits
+                                    </a>
+                                </span>
+                                <span class="widget_latest_price">
+                                    <span class="price_label price_label_before">
+                                        from
+                                    </span>
+                                    $ 999
+                                    <span class="price_label">
+                                    </span>
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </li>
-            <li class="widget-container mortgage_calculator_li boxed_widget" id="mortgage_widget-9">
+                </li>
+                <li class="widget-container mortgage_calculator_li boxed_widget" id="mortgage_widget-9">
                 <h3 class="widget-title-sidebar">
                     Mortgage Calculator
                 </h3>
@@ -3371,7 +3339,7 @@
                         <span id="anual_pay">
                         </span>
                     </div>
-                    <button class="wpresidence_button" id="morg_compute">
+                    <button class="wpresidence_button" id="morg_compute" style="width: 100%;">
                         Calculate
                     </button>
                 </div>
