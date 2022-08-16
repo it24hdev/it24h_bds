@@ -1831,3 +1831,9 @@ input[type="checkbox"] {
     left: 50%;
     margin: -10px 0 0 -11px;
 }
+
+.wpresidence_slider_price {
+    border: 0;
+    color: #0073e1;
+    font-weight: 600;
+}   

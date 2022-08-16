@@ -34,6 +34,23 @@ $(document).ready(function () {
   	$("#bedrooms7").val(selText) ;
 	});
 
+	$("#Rentals_sidebar").click(function(){
+		document.getElementById('rentalssidebar').style.display = "block";
+		document.getElementById('salessidebar').style.display = "none";
+		document.getElementById('investsidebar').style.display = "none";
+	});
+
+	$("#Sales_sidebar").click(function(){
+		document.getElementById('rentalssidebar').style.display = "none";
+		document.getElementById('salessidebar').style.display = "block";
+		document.getElementById('investsidebar').style.display = "none";
+	});
+
+	$("#Invest_sidebar").click(function(){
+		document.getElementById('rentalssidebar').style.display = "none";
+		document.getElementById('salessidebar').style.display = "none";
+		document.getElementById('investsidebar').style.display = "block";
+	});
 
 	let min = 10;
 	let max = 100;
@@ -59,6 +76,30 @@ $(document).ready(function () {
 	  $('#thumbMax2').css('left', calcLeftPosition(newValue) + '%');
 	  $('#max2').html(newValue);
 	  $('#line2').css({
+	    'left': calcLeftPosition(min) + '%',
+	    'right': (100 - calcLeftPosition(newValue)) + '%'
+	  });
+	});
+
+	$('#rangeMin3').on('input', function(e) {
+	  const newValue = parseInt(e.target.value);
+	  if (newValue > max) return;
+	  min = newValue;
+	  $('#thumbMin3').css('left', calcLeftPosition(newValue) + '%');
+	  $('#min3').html(newValue);
+	  $('#line3').css({
+	    'left': calcLeftPosition(newValue) + '%',
+	    'right': (100 - calcLeftPosition(max)) + '%'
+	  });
+	});
+
+	$('#rangeMax3').on('input', function(e) {
+	  const newValue = parseInt(e.target.value);
+	  if (newValue < min) return;
+	  max = newValue;
+	  $('#thumbMax3').css('left', calcLeftPosition(newValue) + '%');
+	  $('#max3').html(newValue);
+	  $('#line3').css({
 	    'left': calcLeftPosition(min) + '%',
 	    'right': (100 - calcLeftPosition(newValue)) + '%'
 	  });

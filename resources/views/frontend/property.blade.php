@@ -2436,17 +2436,17 @@
                                     <div class="adv_search_tab wpestate_search_tab_align_center" id="tab_prpg_adv6" role="tabpanel">
                                         <div class="nav nav-tabs" role="tablist">
                                             <div class="adv_search_tab_item active rentals" data-tax="property_action_category" data-term="rentals" data-termid="2">
-                                                <a aria-controls="rentalssidebar" class="adv6_tab_head" data-toggle="tab" href="#rentalssidebar" role="tab">
+                                                <a aria-controls="rentalssidebar" class="adv6_tab_head" data-toggle="tab" role="tab" id="Rentals_sidebar">
                                                     Rentals
                                                 </a>
                                             </div>
                                             <div class="adv_search_tab_item sales" data-tax="property_action_category" data-term="sales" data-termid="3">
-                                                <a aria-controls="salessidebar" class="adv6_tab_head" data-toggle="tab" href="#salessidebar" role="tab">
+                                                <a aria-controls="salessidebar" class="adv6_tab_head" data-toggle="tab" role="tab" id="Sales_sidebar">
                                                     Sales
                                                 </a>
                                             </div>
                                             <div class="adv_search_tab_item invest" data-tax="property_action_category" data-term="invest" data-termid="2697">
-                                                <a aria-controls="investsidebar" class="adv6_tab_head" data-toggle="tab" href="#investsidebar" role="tab">
+                                                <a aria-controls="investsidebar" class="adv6_tab_head" data-toggle="tab" role="tab" id="Invest_sidebar">
                                                     Invest
                                                 </a>
                                             </div>
@@ -2825,27 +2825,34 @@
                                                                         <input class="advanced_select form-control" id="sidebar-max-size" name="max-size" placeholder="Max. Size" type="text" value=""/>
                                                                     </div>
                                                                     <div class="col-md-6 property_price">
-                                                                        <div class="adv_search_slider">
-                                                                            <p>
-                                                                                <label for="amount">
-                                                                                    Price range:
+                                                                        <div class="field-group-message group-message" style="width: 100%!important; margin-bottom: 30px;">
+                                                                            <p style="margin-bottom: 20px;">
+                                                                                <label class="elementor-field-label">
+                                                                                  Mức giá:
                                                                                 </label>
-                                                                                <span class="wpresidence_slider_price" id="amount_3_sidebar">
-                                                                                    $ 0 to $ 1,500,000
+                                                                                <span class="wpresidence_slider_price">
+                                                                                    $
+                                                                                    <span id="min3">
+                                                                                        10
+                                                                                    </span>
+                                                                                    to $
+                                                                                    <span id="max3">
+                                                                                        100
+                                                                                    </span>
                                                                                 </span>
                                                                             </p>
-                                                                            <div class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content" id="slider_price_3_sidebar">
-                                                                                <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%; width: 100%;">
+                                                                            <div class="range-slide">
+                                                                                <div class="slide">
+                                                                                    <div class="line" id="line3" style="left: 0%; right: 0%;">
+                                                                                    </div>
+                                                                                    <span class="thumb" id="thumbMin3" style="left: 0%;">
+                                                                                    </span>
+                                                                                    <span class="thumb" id="thumbMax3" style="left: 100%;">
+                                                                                    </span>
                                                                                 </div>
-                                                                                <span class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;" tabindex="0">
-                                                                                </span>
-                                                                                <span class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;" tabindex="0">
-                                                                                </span>
+                                                                                <input id="rangeMin3" max="100" min="10" step="5" type="range" value="0" style="padding:0">
+                                                                                <input id="rangeMax3" max="100" min="10" step="5" type="range" value="100" style="padding:0">
                                                                             </div>
-                                                                            <input class="adv6_price_low price_active" id="price_low_3" name="price_low_3" type="hidden" value="0">
-                                                                                <input class="adv6_price_max price_active" id="price_max_3" name="price_max_3" type="hidden" value="1500000">
-                                                                                </input>
-                                                                            </input>
                                                                         </div>
                                                                     </div>
                                                                     <div class="col-md-3 submit_container_half ">
@@ -3401,8 +3408,11 @@
             </li>
         </ul>
     </div>
-</div>    
     </div>
 </div>
-    </div>
+</div>
+@endsection
+
+@section('footer')
+@include('frontend.layouts.footer')
 @endsection
