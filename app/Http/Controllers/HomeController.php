@@ -21,4 +21,8 @@ class HomeController extends Controller
     public function property(){
         return view('frontend.property');
     }
+
+    public function detail_blog(){
+        return view('frontend.detail-blog');
+    }
 }

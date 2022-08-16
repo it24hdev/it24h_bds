@@ -21,3 +21,5 @@ Route::post('/user-register', [UserController::class, 'register'])->name('user_r
 Route::get('/dang-tin', [HomeController::class, 'create_property']);
 
 Route::get('/chi-tiet', [HomeController::class, 'property']);
+
+Route::get('/chi-tiet-bai-viet', [HomeController::class, 'detail_blog'])->name('detail_blog');

@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="/asset/lib/OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/asset/lib/OwlCarousel/dist/assets/owl.theme.default.min.css">
 	<link rel="stylesheet" href="{{asset('asset/css/header-home.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/property.css')}}">
+	<link rel="stylesheet" href="{{asset('asset/css/detail-blog.css')}}">
 	<link rel="stylesheet" href="{{asset('asset/css/footer.css')}}">
     @yield('css')
 </head>
@@ -32,5 +34,6 @@
     @yield('js')
     <script src="{{ asset('asset/js/header-home.js') }}"></script>
     <script src="{{ asset('asset/js/property.js') }}"></script>
+    <script src="{{ asset('asset/js/detail-blog.js') }}"></script>
 </body>
 </html>

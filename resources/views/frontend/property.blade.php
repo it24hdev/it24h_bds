@@ -1,9 +1,4 @@
 @extends('frontend.layouts.base')
-
-@section('css')
-    <link rel="stylesheet" href="{{asset('asset/css/property.css')}}">
-@endsection
-
 @section('header')
 @include('frontend.layouts.header-page')
 @endsection
