@@ -6,6 +6,10 @@
 @include('frontend.layouts.header-page')
 @endsection
 
+@section('css')
+    <link rel="stylesheet" href="{{asset('asset/css/property.css')}}">
+@endsection
+
 @section('menu-mobile')
 @include('frontend.layouts.menu-mobile')
 @endsection

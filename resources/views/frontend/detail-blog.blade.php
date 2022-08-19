@@ -10,6 +10,12 @@
 @include('frontend.layouts.menu-mobile')
 @endsection
 
+@section('css')
+    <link rel="stylesheet" href="{{asset('asset/css/property.css')}}">
+    <link rel="stylesheet" href="{{asset('asset/css/detail-blog.css')}}">
+   
+@endsection
+
 @section('content')
     <div id="wp-content">
         <div class="container content_wrapper">

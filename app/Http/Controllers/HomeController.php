@@ -25,4 +25,8 @@ class HomeController extends Controller
     public function detail_blog(){
         return view('frontend.detail-blog');
     }
+
+    public function list_blog(){
+        return view('frontend.list-blog');
+    }
 }
