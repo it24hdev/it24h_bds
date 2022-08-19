@@ -23,3 +23,4 @@ Route::get('/dang-tin', [HomeController::class, 'create_property']);
 Route::get('/chi-tiet', [HomeController::class, 'property']);
 
 Route::get('/chi-tiet-bai-viet', [HomeController::class, 'detail_blog'])->name('detail_blog');
+Route::get('/danh-sach-bai-viet', [HomeController::class, 'list_blog'])->name('list_blog');
