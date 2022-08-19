@@ -1,5 +1,7 @@
 @extends('frontend.layouts.base')
-
+@section('css')
+<link rel="stylesheet" href="{{asset('asset/css/detail-blog.css')}}">
+@endsection
 @section('header')
 @include('frontend.layouts.header-page')
 @endsection

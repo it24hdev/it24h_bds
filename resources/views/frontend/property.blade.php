@@ -1,4 +1,7 @@
 @extends('frontend.layouts.base')
+@section('css')
+    <link rel="stylesheet" href="{{asset('asset/css/property.css')}}">
+@endsection
 @section('header')
 @include('frontend.layouts.header-page')
 @endsection
@@ -392,7 +395,7 @@
                         </div>
                         <div class="panel-collapse " id="collapseThree">
                             <div class="panel-body">
-                                
+
                                 <div class="listing_detail col-md-12 feature_block_Interior Details ">
                                     <div class="feature_chapter_name col-md-12">
                                         Interior Details
@@ -421,7 +424,7 @@
                                     </div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="listing_detail col-md-12 feature_block_Outdoor Details ">
                                     <div class="feature_chapter_name col-md-12">
                                         Outdoor Details
@@ -1306,7 +1309,7 @@
                                    {{--  <div class="lighbox_overlay">
                                     </div> --}}
                                 </div>
-                         
+
                             </div>
                         </div>
                     </div>
@@ -1631,7 +1634,7 @@
                         WhatsApp
                     </a>
                     <input id="agent_property_id" name="prop_id" type="hidden" value="22972">
-                        
+
                     </input>
                     <input id="agent_id" name="prop_id" type="hidden" value="22914"></input>
                      <input id="agent_property_ajax_nonce" name="contact_ajax_nonce" type="hidden" value="7a95f4182b">
@@ -1744,7 +1747,7 @@
                                         </font>
                                     </a>
                                 </div>
-                              
+
                                 <div class="property_listing_details">
                                     <span class="inforoom">
                                         <svg fill="none" viewbox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
@@ -1787,7 +1790,7 @@
                                         </sup>
                                     </span>
                                     <a class="unit_details_x" href="https://wpresidence.net/properties/custom-property-template-v4/" target="_self">
-                                     
+
                                     </a>
                                 </div>
                                 <div class="property_location">
@@ -1971,7 +1974,7 @@
                                         </sup>
                                     </span>
                                     <a class="unit_details_x" href="https://wpresidence.net/properties/custom-property-template-v3/" target="_self">
-                                       
+
                                     </a>
                                 </div>
                                 <div class="property_location">
@@ -2112,7 +2115,7 @@
                                         </font>
                                     </a>
                                 </div>
-                              
+
                                 <div class="property_listing_details">
                                     <span class="inforoom">
                                         <svg fill="none" viewbox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
@@ -2155,7 +2158,7 @@
                                         </sup>
                                     </span>
                                     <a class="unit_details_x" href="https://wpresidence.net/properties/custom-property-template-v2/" target="_self">
-                                       
+
                                     </a>
                                 </div>
                                 <div class="property_location">
@@ -2299,7 +2302,7 @@
                                         </font>
                                     </a>
                                 </div>
-                               
+
                                 <div class="property_listing_details">
                                     <span class="inforoom">
                                         <svg fill="none" viewbox="0 0 19 15" xmlns="http://www.w3.org/2000/svg">
@@ -2383,7 +2386,7 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
         <div class=" col-xs-12 col-md-3 widget-area-sidebar" id="primary">

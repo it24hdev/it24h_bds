@@ -11,12 +11,18 @@
 
 #wp-form-add-property .wp-info-categoty,
 #wp-form-add-property .wp-content-post,
-#wp-form-add-property .wp-info-property{
+#wp-form-add-property .wp-info-property,
+#wp-form-add-property .media-contact,
+#wp-form-add-property .wp-select-type{
     width: 100%;
     padding: 10px;
 }
-.wp-info-categoty .info-categoty, .wp-content-post .content-post,
-.wp-info-property .info-property{
+.wp-info-categoty .info-categoty,
+.wp-content-post .content-post,
+.wp-info-property .info-property,
+.wp-media-post .media-post,
+.wp-info-contact .info-contact,
+.wp-select-type .select-type{
     width: 100%;
     box-shadow: 0 10px 31px 0 rgb(7 152 255 / 15%);
     border-radius: 5px;
@@ -52,21 +58,23 @@
     display: flex;
     margin-bottom: 20px;
 }
-.info-categoty .vertical button{
+.info-categoty .vertical span{
     width: 50%;
     box-sizing: border-box;
     border: 1px solid rgb(223, 223, 223);
     padding: 7px;
     background-color: #fff;
     font-size: 14px;
+    text-align: center;
+    cursor: pointer;
 }
-.info-categoty .vertical button:first-child{
+.info-categoty .vertical span:first-child{
     border-radius: 3px 0px 0px 3px;
 }
-.info-categoty .vertical button:last-child{
+.info-categoty .vertical span:last-child{
     border-radius: 0px 3px 3px 0px;
 }
-.info-categoty .vertical button.active{
+.info-categoty .vertical span.active{
     background-color: #0073e1;
     color: #fff;
     border-color: #0073e1;
@@ -147,15 +155,85 @@
     justify-content: space-between;
 }
 .wp-info-property .info-property .wp-bonus-detail .form-group{
-    width: 48%;
+    width: 100%;
 }
 .wp-info-property .info-property .wp-bonus-detail .form-group:last-child{
     width: 100% !important;
 }
+.wp-media-post{
+    margin-bottom: 20px;
+}
+.wp-media-post .media-post p{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+}
+.wp-media-post .media-post input{
+    visibility: hidden;
+}
+.wp-media-post .media-post label{
+    width: 100%;
+    padding: 40px;
+    border-radius: 3px;
+    border: 1px dashed #ccc;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+.wp-media-post .media-post label .icon{
+    font-size: 50px;
+    color: #838383;
+    padding-bottom: 10px;
+}
+.wp-media-post .media-post label .text{
+    color: rgb(80, 80, 80);
+    font-weight: 400;
+}
+.wp-info-contact .info-contact .wp-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wp-info-contact .info-contact .wp-contact .form-group{
+    width: 100%;
+}
+.select-type .wp-select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.select-type .wp-select .form-group{
+    width: 100%;
+}
+.select-type .wp-select .form-group input.date{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #cfcfcf;
+    outline: none;
+    border-radius: 5px;
+}
+@media (min-width: 450px){
+    .wp-info-property .info-property .wp-bonus-detail .form-group{
+        width: 48%;
+    }
+    .wp-info-property .info-property .wp-bonus-detail .form-group:last-child{
+        width: 100% !important;
+    }
+    .wp-info-contact .info-contact .wp-contact .form-group{
+        width: 48%;
+    }
+}
+
 @media (min-width: 768px){
     #wp-form-add-property .wp-info-categoty,
     #wp-form-add-property .wp-content-post,
-    #wp-form-add-property .wp-info-property{
+    #wp-form-add-property .wp-info-property,
+    #wp-form-add-property .media-contact{
         width: 50%;
+    }
+    .select-type .wp-select .form-group{
+        width: 30%;
     }
 }

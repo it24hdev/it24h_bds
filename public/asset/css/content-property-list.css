@@ -121,8 +121,7 @@
     width: 100%;
     position: relative;
     overflow: hidden;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-radius: 3px;
 }
 .wp-list-top ul.post-list li .wp-post a.img-wp::after{
     position: absolute;
@@ -161,6 +160,7 @@
 }
 .wp-list-top ul.post-list li .wp-post .wp-detail{
     padding: 10px 20px;
+    position: relative;
 }
 .wp-list-top ul.post-list li .wp-post .wp-detail h4 a{
     display: block;
@@ -236,8 +236,8 @@ li .wp-post .wp-detail .wp-author .action{
     position: relative;
 }
 li .wp-post .wp-detail .wp-author .action .box-action{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-left: 8px;
     float: left;
     cursor: pointer;
@@ -333,8 +333,30 @@ li .wp-post .wp-detail .wp-author .action .box-action:hover{
     .wp-list-top ul.post-list li{
         width: 50%;
     }
+
 }
-@media (min-width: 786px){
+@media (min-width: 768px){
+    #wp-content .wp-list-top ul.post-list{
+        display: block;
+    }
+    .wp-list-top ul.post-list li{
+        width: 100%;
+    }
+    .wp-list-top ul.post-list li .wp-post a.img-wp{
+        min-width: 300px;
+    }
+    .wp-list-top ul.post-list li .wp-post{
+        display: flex;
+    }
+    ul.post-list li .wp-post .wp-detail .wp-author .author .avatar{
+        width: 10%;
+    }
+    li .wp-post .wp-detail .wp-author .action .box-action{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (min-width: 1024px){
     #wp-content .wp-list-top{
         width: 75%;
     }
