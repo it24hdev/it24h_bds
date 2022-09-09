@@ -26,7 +26,7 @@
                 <input id="loginpop_wd_topbar" name="loginpop" type="hidden" value="0">
                 <input id="security-login-topbar" name="security-login-topbar" type="hidden" value="086547c089-1659586631">
                 <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-login-but-topbar">
-                   @lang('lang.Login') 
+                   @lang('lang.Login')
                 </button>
                 <div class="login-links">
                     <div class="or_social">
@@ -112,7 +112,7 @@
                 <button class="wpresidence_button bt_search search_button_use_hover_effect_notrue" id="wp-forgot-but-topbar" name="forgot">
                     @lang('lang.ResetPassword')
                 </button>
-                 
+
             </div>
             <div class="login_modal_control">
                 <a href="#" id="widget_register_topbar">
@@ -134,7 +134,7 @@
     </div>
 </div>
 
-@section('js')
+@section('js-login')
     <script>
         $(document).ready(function(){
         $.ajaxSetup({ headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')}});
@@ -157,7 +157,7 @@
                     $('span.'+prefix+'_error').text(val[0]);
                     });
                 }
-            
+
                 if(data.status == 1){
                     window.alert('Đăng ký thành công');
                     window.location.replace('{{route('home')}}');

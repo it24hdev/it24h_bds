@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+	@yield('title')
 	<meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +30,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="/asset/lib/OwlCarousel/dist/owl.carousel.min.js"></script>
     @yield('js')
+    @yield('js-login')
     <script src="{{ asset('asset/js/header-home.js') }}"></script>
     <script src="{{ asset('asset/js/property.js') }}"></script>
     <script src="{{ asset('asset/js/detail-blog.js') }}"></script>

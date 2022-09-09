@@ -1,5 +1,7 @@
 @extends('frontend.layouts.base')
-
+@section('title')
+    <title>Trang chủ</title>
+@endsection
 @section('css')
     <link rel="stylesheet" href="{{asset('asset/css/content-home.css')}}">
 @endsection

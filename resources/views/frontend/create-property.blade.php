@@ -95,10 +95,7 @@
                                 </div>
                                 <div class="form-group mb-4">
                                     <label for="">Đường, phố</label>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Chọn</option>
-                                        <option value="1">...</option>
-                                    </select>
+                                    <input type="text" class="form-control" placeholder="Nhập đường, phố">
                                 </div>
                             </div>
                         </div>
